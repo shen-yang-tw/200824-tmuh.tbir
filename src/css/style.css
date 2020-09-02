@@ -10,7 +10,7 @@ strong {
   color: #e472a9;
 }
 
-header::before,
+.uk-sticky::before,
 #footer::before {
   content: "";
   display: block;

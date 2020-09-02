@@ -381,6 +381,15 @@ if (oneExist(".text_size") == true) {
   fontResize("text-m", "text-l", "text_size", "text_size-s", "text_size-m", "text_size-l", "active");
 }
 
+//load active tab from url
+//https://www.w3schools.com/JSREF/prop_loc_hash.asp
+var hash = document.location.hash;
+if (hash) {
+  // UIkit.$(hash).addClass('uk-active');
+  UIkit.switcher('#patinfo_switcher').show($(hash));
+}
+
+
 // if (allExist(".logo_cht, logo_eng") == true) {
 //   var fitText = require("FitText-UMD");
 //   // fitText = window.fitText

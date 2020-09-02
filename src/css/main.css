@@ -12554,13 +12554,21 @@ a, span, label, strong, small {
 }
 
 .list_decimal > li:before {
-  display: inherit;
+  display: inline-block;
   counter-increment: dot-counter;
   content: "" counter(dot-counter) ". ";
+  padding-right: 10px;
+  margin-left: -30px;
 }
 
 .list_decimal > li {
   margin-bottom: 10px;
+  padding-left: 30px;
+}
+
+.list_decimal > li > * {
+  display: inline-block;
+  margin: 0;
 }
 
 .list_decimal_ch {
@@ -83856,7 +83864,8 @@ address, dl, fieldset, figure, ol, p, pre, ul {
 }
 
 .uk-table th {
-  color: #666;
+  color: #2e2e2e;
+  font-weight: 700;
 }
 
 @media (max-width: 1119px) {

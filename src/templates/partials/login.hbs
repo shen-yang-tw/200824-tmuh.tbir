@@ -1,15 +1,18 @@
 <form>
+  {{#if formTitleOn}}
+  <h3>{{formTitle}}</h3>
+  {{/if}}
   <div class="uk-grid-small uk-child-width-expand@m uk-grid" uk-grid>
     <div class="space-y-1 min_width-1/2!@m">
       <label class="w-full" for="#acc">帳 號</label>
       <input id="acc" class="uk-input" type="email" placeholder="">
-      <p class="color_secondary uk-text-small">{{error1}}</p>
-      <p class="color_secondary uk-text-small">{{error2}}</p>
+      <p class="color_secondary-text uk-text-small">{{error1}}</p>
+      <p class="color_secondary-text uk-text-small">{{error2}}</p>
     </div>
     <div class="space-y-1 min_width-1/2!@m">
       <label class="w-full" for="#pas">密 碼</label>
       <input id="pas" class="uk-input" type="password" placeholder="">
-      <p class="color_secondary uk-text-small">驗證提示語</p>
+      <p class="color_secondary-text uk-text-small">驗證提示語</p>
     </div>
     {{!-- <div class="space-y-1 min_width-1/2!@m">
       <label class="w-full" for="#cap">驗證碼</label>
@@ -23,18 +26,24 @@
     <div class="m:mt-8 uk-width-1-1">
       <div class="uk-grid-small uk-child-width-expand uk-grid" uk-grid>
         <div class="space-y-1 min_width-1/2!@m">
-          <a href="#" class="btn_primary w-full uk-button uk-button-primary">確定</a>
+          <a href="{{submit}}" class="btn_primary w-full rounded-full uk-button uk-button-primary">登入</a>
         </div>
         {{!-- <div class="space-y-1 min_width-1/2!@m">
-          <a href="#" class="w-full uk-button uk-button-default" type="reset">取消</a>
-        </div> --}}
-        {{#if btnRegisterOn}}
-        <div class="space-y-1 min_width-1/2!@m">
-          <a href="#register" class="w-full uk-button uk-button-default uk-toggle" uk-toggle>註冊</a>
+          <a href="#" class="w-full rounded-full uk-button uk-button-default" type="reset">取消</a>
         </div>
-        {{/if}}
+        <div class="space-y-1 min_width-1/2!@m">
+          <a href="#register" class="w-full rounded-full uk-button uk-button-default uk-toggle" uk-toggle>註冊</a>
+        </div> --}}
       </div>
-      <small class="w-full text-center mt-10">聯絡系統管理員<br>sherry5473@tmu.edu.tw<br>02-6638-2736 分機 1219</small>
+      {{#if btnRegisterOn}}
+      <small class="mt-2 text-center block">
+        沒有帳戶？<a class="color_primary link_line ml-2 uk-toggle" href="#register" uk-toggle>註冊</a>
+      </small>
+      {{/if}}
+      {{#if formContactOn}}
+      <small class="w-full text-center mt-10">忘記帳戶資訊，請聯絡系統管理員<br><a class="color_primary link_line"
+          href="mailto:sherry5473@tmu.edu.tw">sherry5473@tmu.edu.tw</a><br>02-6638-2736 分機 1219</small>
+      {{/if}}
     </div>
   </div>
 </form>
@@ -47,7 +56,8 @@
     </div>
     <div class="uk-modal-body">
       <form>
-        <div class="margin_y_child-even-m margin_y_child-m@m uk-grid uk-grid-collapse uk-flex-right uk-flex-middle" uk-grid>
+        <div class="margin_y_child-even-m margin_y_child-m@m uk-grid uk-grid-collapse uk-flex-right uk-flex-middle"
+          uk-grid>
           <div class="uk-width-1-3@m">
             <label class="font_size-10 font-bold uk-form-label" for="form_name">姓名</label>
           </div>
@@ -95,10 +105,10 @@
         </div>
       </form>
     </div>
-    <div class="text-right uk-margin uk-modal-footer" uk-margin>
-      <a href="#" class="btn_primary m-0 uk-button uk-button-primary">註　　冊</a>
-      <button class="uk-button uk-button-default uk-modal-close" type="button">取　　消</button>
-      {{!-- <a href="#login" class="uk-button uk-button-default" uk-toggle>返回登入</a> --}}
+    <div class="text-center uk-margin uk-modal-footer" uk-margin>
+      <a href="#" class="btn_primary min_width-100 m-0 rounded-full uk-button uk-button-primary">註　　冊</a>
+      <button class="min_width-100 rounded-full uk-button uk-button-default uk-modal-close" type="button">取　　消</button>
+      {{!-- <a href="#login" class="rounded-full uk-button uk-button-default" uk-toggle>返回登入</a> --}}
     </div>
   </div>
 </div>

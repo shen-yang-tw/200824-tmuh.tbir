@@ -1,7 +1,8 @@
 // node.js Packages / Dependencies
 const gulp = require('gulp');
 const sass = require('gulp-sass');
-const uglify = require('gulp-uglify');
+// const uglify = require('gulp-uglify');
+const uglify = require('gulp-uglify-es').default;
 const rename = require('gulp-rename');
 const concat = require('gulp-concat');
 const cleanCSS = require('gulp-clean-css');
@@ -331,11 +332,17 @@ gulp.task('css', function() {
 // Minify + Combine JS
 gulp.task('js', function() {
   return gulp.src([paths.src.js, '!' + paths.src.root + paths.dist.js + '/ui*.js'])
-    .pipe(uglify())
-    // .pipe(concat('app.js'))
-    .pipe(rename({
-      suffix: '.min'
-    }))
+    .pipe(mode.production(
+      uglify(),
+      rename({
+        suffix: '.min'
+      })
+    ))
+    // .pipe(uglify())
+    // // .pipe(concat('app.js'))
+    // .pipe(rename({
+    //   suffix: '.min'
+    // }))
     .pipe(gulp.dest(paths.dist.root + paths.dist.js))
     .pipe(browserSync.stream());
 });
@@ -376,7 +383,8 @@ gulp.task('watch', function() {
   })
   gulp.watch(paths.src.scss, gulp.series('sass')).on('change', browserSync.reload);
   gulp.watch(paths.src.css, gulp.series('css')).on('change', browserSync.reload);
-  gulp.watch(paths.src.js, gulp.series('js')).on('change', browserSync.reload);
+  gulp.watch(paths.src.js).on('change', browserSync.reload);
+  // gulp.watch(paths.src.js, gulp.series('js')).on('change', browserSync.reload);
   // gulp.watch(paths.src.templates, gulp.series('templates')).on('change', browserSync.reload);
   gulp.watch(paths.src.root + paths.dist.templates + '/**/*.hbs', gulp.series('templates')).on('change', browserSync.reload);
   gulp.watch(paths.src.html).on('change', browserSync.reload);

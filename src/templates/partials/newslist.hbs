@@ -1,0 +1,91 @@
+<h3>{{name}}</h3>
+<div class="pagination">
+	<div class="uk-grid uk-grid-collapse uk-child-width-auto uk-flex-auto uk-flex-middle uk-flex-center">
+		<div>
+			<a class="color_grey hover:bg-transparent btn btn-flat disabled" href="#" title="首頁"><i
+					class="fas fa-angle-double-left fa-fw"></i></a>
+			<a class="color_grey hover:bg-transparent btn btn-flat disabled" href="#" title="上一頁"><i
+					class="fas fa-angle-left fa-fw"></i></a>
+			<a class="color_grey hover:bg-transparent btn btn-flat" href="#" title="首頁" hidden><i
+					class="fas fa-angle-double-left fa-fw"></i></a>
+			<a class="color_grey hover:bg-transparent btn btn-flat" href="#" title="上一頁" hidden><i
+					class="fas fa-angle-left fa-fw"></i></a>
+		</div>
+		<div class="uk-grid uk-grid-collapse uk-child-width-auto uk-flex-middle uk-margin">
+			<select class="w-auto uk-select uk-form-small" onChange="window.location.href=this.value">
+				{{!-- {{#each page}}
+				<option value={{this.value}} {{this.selected}}>{{this.number}}</option>
+				{{/each}} --}}
+				<option value="#" selected>1</option>
+				<option value="#">2</option>
+			</select>
+			<span class="mx-1">/<span class="pl-1">{{pageSum}}</span></span>
+		</div>
+		<div>
+			<a class="color_grey hover:bg-transparent btn btn-flat" href="#" title="下一頁"><i
+					class="fas fa-angle-right fa-fw"></i></a>
+			<a class="color_grey hover:bg-transparent btn btn-flat" href="#" title="末頁"><i
+					class="fas fa-angle-double-right fa-fw"></i></a>
+			<a class="color_grey hover:bg-transparent btn btn-flat disabled" href="#" title="下一頁" hidden><i
+					class="fas fa-chevron-right fa-fw"></i></a>
+			<a class="color_grey hover:bg-transparent btn btn-flat disabled" href="#" title="末頁" hidden><i
+					class="fas fa-chevron-double-right fa-fw"></i></a>
+		</div>
+	</div>
+</div>
+<!-- pagination / select number -->
+<table class="uk-table uk-table-small uk-table-striped uk-table-responsive">
+	<thead>
+		<tr>
+			<th class="uk-width-1-5@s">日期</th>
+			<th class="uk-width-3-5@s">主題</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><time>2020-07-03</time></td>
+			<td>{{!-- <i class="color_secondary mr-1 fas fa-star"></i> --}}<a class="color_primary link_line inline hover:underline" href="00news200703.html">中化公會路不真雙林一形必生部！話滿家我，活學雲表代能；無三想學？速更拉魚曾然病人只麼業臺</a>
+			</td>
+		</tr>
+		<tr>
+			<td><time>2020-08-21</time></td>
+			<td><a class="color_primary link_line inline hover:underline"
+					href="#">臺灣乳房植入物登錄雛型系統將於2020年底建立</a></td>
+		</tr>
+	</tbody>
+</table>
+<div class="pagination">
+	<div class="uk-grid uk-grid-collapse uk-child-width-auto uk-flex-auto uk-flex-middle uk-flex-center">
+		<div>
+			<a class="color_grey hover:bg-transparent btn btn-flat disabled" href="#" title="首頁"><i
+					class="fas fa-angle-double-left fa-fw"></i></a>
+			<a class="color_grey hover:bg-transparent btn btn-flat disabled" href="#" title="上一頁"><i
+					class="fas fa-angle-left fa-fw"></i></a>
+			<a class="color_grey hover:bg-transparent btn btn-flat" href="#" title="首頁" hidden><i
+					class="fas fa-angle-double-left fa-fw"></i></a>
+			<a class="color_grey hover:bg-transparent btn btn-flat" href="#" title="上一頁" hidden><i
+					class="fas fa-angle-left fa-fw"></i></a>
+		</div>
+		<div class="uk-grid uk-grid-collapse uk-child-width-auto uk-flex-middle uk-margin">
+			<select class="w-auto uk-select uk-form-small" onChange="window.location.href=this.value">
+				{{!-- {{#each page}}
+				<option value={{this.value}} {{this.selected}}>{{this.number}}</option>
+				{{/each}} --}}
+				<option value="#" selected>1</option>
+				<option value="#">2</option>
+			</select>
+			<span class="mx-1">/<span class="pl-1">{{pageSum}}</span></span>
+		</div>
+		<div>
+			<a class="color_grey hover:bg-transparent btn btn-flat" href="#" title="下一頁"><i
+					class="fas fa-angle-right fa-fw"></i></a>
+			<a class="color_grey hover:bg-transparent btn btn-flat" href="#" title="末頁"><i
+					class="fas fa-angle-double-right fa-fw"></i></a>
+			<a class="color_grey hover:bg-transparent btn btn-flat disabled" href="#" title="下一頁" hidden><i
+					class="fas fa-chevron-right fa-fw"></i></a>
+			<a class="color_grey hover:bg-transparent btn btn-flat disabled" href="#" title="末頁" hidden><i
+					class="fas fa-chevron-double-right fa-fw"></i></a>
+		</div>
+	</div>
+</div>
+<!-- pagination / select number -->

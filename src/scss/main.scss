@@ -2474,8 +2474,11 @@ $hover-brand-bg:"bg_facebook" $facebook, "bg_twitter" $twitter, "bg_googleplus" 
 }
 #{$list-decimal} {
   @include list-counter($reset:true);
-  &>li:before {@include list-counter;}
-  &>li {@include space($property:margin-bottom, $size:$space-m)}
+  &>li:before {@include list-counter($display:inline-block); @include space($property:padding-right, $size:$space-m); @include space($property:margin-left, $size:-$space-m*3);}
+  &>li {
+    @include space($property:margin-bottom, $size:$space-m); @include space($property:padding-left, $size:$space-m*3);
+    &>* {display: inline-block; margin: 0;}
+  }
 }
 #{$list-decimal-ch} {list-style-type:cjk-ideographic; padding-left: 30px;}
 #{$list-decimal-row} {
@@ -3104,7 +3107,7 @@ address, dl, fieldset, figure, ol, p, pre, ul {
 #{$accordion-icon-r-arrow}#{$uk-accordion-title}::after {background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkYXRhLXN2Zz0iY2hldnJvbi1yaWdodCI+PHBvbHlsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSIxLjAzIiBwb2ludHM9IjcgNCAxMyAxMCA3IDE2Ij48L3BvbHlsaW5lPjwvc3ZnPg=="); margin-bottom: -1px;}
 #{$uk-open}>#{$accordion-icon-r-arrow}#{$uk-accordion-title}::after {background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkYXRhLXN2Zz0iY2hldnJvbi1kb3duIj48cG9seWxpbmUgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjEuMDMiIHBvaW50cz0iMTYgNyAxMCAxMyA0IDciPjwvcG9seWxpbmU+PC9zdmc+");}
 
-#{$uk-table} th {color: #666;}
+#{$uk-table} th {color: $color-text-dark; font-weight: 700;}
 @media (max-width: 1119px) {
 #{$uk-table-responsive}#{$table-responsive}\@l thead {display: none;}
 #{$uk-table-responsive}#{$table-responsive}\@l #{$uk-table-link}:not(:last-child)>a, #{$uk-table-responsive}#{$table-responsive}\@l td:not(:last-child):not(#{$uk-table-link}), #{$uk-table-responsive}#{$table-responsive}\@l th:not(:last-child):not(#{$uk-table-link}) {padding-bottom: 5px!important;}

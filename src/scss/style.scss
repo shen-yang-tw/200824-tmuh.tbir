@@ -23,7 +23,7 @@ strong {
   color: $color-primary
 }
 
-header::before,
+.uk-sticky::before,
 #footer::before {
   content: "";
   display: block;
