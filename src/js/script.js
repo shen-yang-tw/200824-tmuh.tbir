@@ -385,11 +385,11 @@ if (oneExist(".text_size") == true) {
 //https://www.w3schools.com/JSREF/prop_loc_hash.asp
 var hash = document.location.hash
 if (hash && oneExist("#patinfo_switcher") == true) {
-  // document.querySelector('li' + hash + '>a').click();
+  document.querySelector('li' + hash + '>a').click();
   // UIkit.tab("#patinfo_tab").show(hash.slice(-1) - 1)
-  var index = hash.slice(-1) - 1
-  UIkit.switcher("#patinfo_switcher").show(index)
-  console.log(index)
+  // var index = hash.slice(-1) - 1
+  // UIkit.switcher("#patinfo_switcher").show(index)
+  console.log('li' + hash + '>a')
 
   // UIkit.switcher("#patinfo_switcher", {active: hash.slice(-1) - 1})
   // UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
