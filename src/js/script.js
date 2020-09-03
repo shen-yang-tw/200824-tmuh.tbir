@@ -390,7 +390,7 @@ UIkit.util.ready(function() {
     // UIkit.tab("#patinfo_tab").show(hash.slice(-1) - 1)
     var index = hash.slice(-1) - 1
     UIkit.switcher("#patinfo_switcher").show(index)
-    console.log(index + ', ' + hash && oneExist("#patinfo_switcher"))
+    console.log(index)
 
     // UIkit.switcher("#patinfo_switcher", {active: hash.slice(-1) - 1})
     // UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
