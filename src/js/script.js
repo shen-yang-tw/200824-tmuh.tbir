@@ -387,12 +387,12 @@ var hash = document.location.hash;
 if (hash) {
   // UIkit.$(hash).addClass('uk-active');
   // document.querySelector('li' + hash + '>a').click();
-  // UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
-  UIkit.util.on('#patinfo_switcher', 'beforeshow', function() {
+  //x UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
+  UIkit.util.on('#patinfo_switcher', 'show', function() {
     document.querySelector('li' + hash + '>a').click();
   });
 
-  // UIkit.switcher('#patinfo_switcher').show(hash)
+  //x UIkit.switcher('#patinfo_switcher').show(hash)
 }
 // UIkit.util.ready(function() {
 //   var hash = document.location.hash;
