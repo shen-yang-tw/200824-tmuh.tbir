@@ -383,35 +383,20 @@ if (oneExist(".text_size") == true) {
 
 //load active tab from url
 //https://www.w3schools.com/JSREF/prop_loc_hash.asp
-var hash = document.location.hash;
-if (oneExist("#patinfo_switcher") == true) {
+UIkit.util.ready(function() {
+  var hash = document.location.hash;
+  console.log(hash)
+  if (hash && oneExist("#patinfo_switcher") == true) {
+    document.querySelector('li' + hash + '>a').click();
+    // UIkit.util.$$('li' + hash + '>a').click()
+    // UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
+    // UIkit.util.$$('li' + hash).classList.add('uk-active')
+    // UIkit.util.$$('li[uk-filter-control="[data-tag~=\'' + decodeURI(tag).replace(/ /g, '-') + '\']"] > a').forEach(function(el) {
+    //     el.click();
+    // });
+  }
+});
 
-  UIkit.util.on('#patinfo_switcher', 'show', function() {
-    if (hash) {
-      // UIkit.$(hash).addClass('uk-active');
-      // document.querySelector('li' + hash + '>a').click();
-      //x UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
-      console.log(hash)
-      document.querySelector('li' + hash + '>a').click();
-      //x UIkit.switcher('#patinfo_switcher').show(hash)
-    }
-  });
-  
-}
-
-// UIkit.util.ready(function() {
-//   var hash = document.location.hash;
-//   console.log(hash)
-//   if (hash) {
-//     document.querySelector('li' + hash + '>a').click();
-//     // UIkit.util.$$('li' + hash + '>a').click()
-//     // UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
-//     // UIkit.util.$$('li' + hash).classList.add('uk-active')
-//     // UIkit.util.$$('li[uk-filter-control="[data-tag~=\'' + decodeURI(tag).replace(/ /g, '-') + '\']"] > a').forEach(function(el) {
-//     //     el.click();
-//     // });
-//   }
-// });
 // UIkit.on('beforeready.uk.dom', function() {
 //   var hash = document.location.hash;
 //   if (hash) {
