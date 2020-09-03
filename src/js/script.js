@@ -383,23 +383,23 @@ if (oneExist(".text_size") == true) {
 
 //load active tab from url
 //https://www.w3schools.com/JSREF/prop_loc_hash.asp
-UIkit.util.ready(function() {
-  var hash = document.location.hash
-  if (hash && oneExist("#patinfo_switcher") == true) {
-    // document.querySelector('li' + hash + '>a').click();
-    // UIkit.tab("#patinfo_tab").show(hash.slice(-1) - 1)
-    var index = hash.slice(-1) - 1
-    UIkit.switcher("#patinfo_switcher").show(index)
-    console.log(index)
+var hash = document.location.hash
+if (hash && oneExist("#patinfo_switcher") == true) {
+  // document.querySelector('li' + hash + '>a').click();
+  // UIkit.tab("#patinfo_tab").show(hash.slice(-1) - 1)
+  var index = hash.slice(-1) - 1
+  UIkit.switcher("#patinfo_switcher").show(index)
+  console.log(index)
 
-    // UIkit.switcher("#patinfo_switcher", {active: hash.slice(-1) - 1})
-    // UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
-    // UIkit.util.$$('li' + hash).classList.add('uk-active')
-    // UIkit.util.$$('li[uk-filter-control="[data-tag~=\'' + decodeURI(tag).replace(/ /g, '-') + '\']"] > a').forEach(function(el) {
-    //   el.click();
-    // });
-  }
-});
+  // UIkit.switcher("#patinfo_switcher", {active: hash.slice(-1) - 1})
+  // UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
+  // UIkit.util.$$('li' + hash).classList.add('uk-active')
+  // UIkit.util.$$('li[uk-filter-control="[data-tag~=\'' + decodeURI(tag).replace(/ /g, '-') + '\']"] > a').forEach(function(el) {
+  //   el.click();
+  // });
+}
+
+// UIkit.util.ready(function() {});
 
 // UIkit.on('beforeready.uk.dom', function() {
 //   var hash = document.location.hash;
