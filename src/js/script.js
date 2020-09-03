@@ -383,17 +383,22 @@ if (oneExist(".text_size") == true) {
 
 //load active tab from url
 //https://www.w3schools.com/JSREF/prop_loc_hash.asp
-// var hash = document.location.hash;
-// if (hash) {
-//   // UIkit.$(hash).addClass('uk-active');
-//   UIkit.switcher('#patinfo_switcher').show(hash);
-// }
-UIkit.on('beforeready.uk.dom', function() {
-  var hash = document.location.hash;
-  if (hash) {
-    UIkit.$(hash).addClass('uk-active');
-  }
-});
+var hash = document.location.hash;
+if (hash) {
+  // UIkit.$(hash).addClass('uk-active');
+  // UIkit.switcher('#patinfo_switcher').show(hash);
+  UIkit.switcher('#patinfo_switcher').beforeshow(
+    function() {
+      UIkit.$(hash).addClass('uk-active');
+    }
+  );
+}
+// UIkit.on('beforeready.uk.dom', function() {
+//   var hash = document.location.hash;
+//   if (hash) {
+//     UIkit.$(hash).addClass('uk-active');
+//   }
+// });
 
 // if (allExist(".logo_cht, logo_eng") == true) {
 //   var fitText = require("FitText-UMD");
