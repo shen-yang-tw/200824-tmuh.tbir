@@ -387,8 +387,28 @@ var hash = document.location.hash;
 if (hash) {
   // UIkit.$(hash).addClass('uk-active');
   // document.querySelector('li' + hash + '>a').click();
-  UIkit.switcher('#patinfo_switcher').show(hash);
+  UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
+  // UIkit.switcher('#patinfo_switcher').show(hash)
 }
+// UIkit.util.ready(function() {
+//   var hash = document.location.hash;
+//   console.log(hash)
+//   if (hash) {
+//     document.querySelector('li' + hash + '>a').click();
+//     // UIkit.util.$$('li' + hash + '>a').click()
+//     // UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
+//     // UIkit.util.$$('li' + hash).classList.add('uk-active')
+//     // UIkit.util.$$('li[uk-filter-control="[data-tag~=\'' + decodeURI(tag).replace(/ /g, '-') + '\']"] > a').forEach(function(el) {
+//     //     el.click();
+//     // });
+//   }
+// });
+// UIkit.on('beforeready.uk.dom', function() {
+//   var hash = document.location.hash;
+//   if (hash) {
+//     UIkit.$(hash).addClass('uk-active');
+//   }
+// });
 
 // if (allExist(".logo_cht, logo_eng") == true) {
 //   var fitText = require("FitText-UMD");
