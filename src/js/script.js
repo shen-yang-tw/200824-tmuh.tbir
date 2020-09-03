@@ -384,12 +384,12 @@ if (oneExist(".text_size") == true) {
 //load active tab from url
 //https://www.w3schools.com/JSREF/prop_loc_hash.asp
 UIkit.util.ready(function() {
-  var hash = document.location.hash;
-  console.log(hash)
   if (hash && oneExist("#patinfo_switcher") == true) {
+    var hash = document.location.hash
+    console.log(hash)
     // document.querySelector('li' + hash + '>a').click();
     UIkit.util.$$('li' + hash + '>a').forEach(function(el) {
-      el.click();
+      el.click()
     })
     // UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
     // UIkit.util.$$('li' + hash).classList.add('uk-active')
