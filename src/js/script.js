@@ -392,8 +392,9 @@ if (oneExist(".text_size") == true) {
 // }
 UIkit.util.ready(function() {
   var hash = window.location.hash;
+  console.log(hash)
   if (hash) {
-    UIkit.util.$$('li' + hash).click();
+    document.querySelector(hash).click();
     // UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
     // UIkit.util.$$('li' + hash).classList.add('uk-active')
     // UIkit.util.$$('li[uk-filter-control="[data-tag~=\'' + decodeURI(tag).replace(/ /g, '-') + '\']"] > a').forEach(function(el) {
