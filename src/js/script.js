@@ -388,9 +388,9 @@ UIkit.util.ready(function() {
   if (hash && oneExist("#patinfo_switcher") == true) {
     console.log(hash)
     // document.querySelector('li' + hash + '>a').click();
-    UIkit.util.$$('li' + hash + '>a').forEach(function(el) {
-      el.click()
-    })
+    // UIkit.tab("#patinfo_tab").show(hash.slice(-1) - 1)
+    UIkit.switcher("#patinfo_switcher").show(hash.slice(-1) - 1)
+    // UIkit.switcher("#patinfo_switcher", {active: hash.slice(-1) - 1})
     // UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
     // UIkit.util.$$('li' + hash).classList.add('uk-active')
     // UIkit.util.$$('li[uk-filter-control="[data-tag~=\'' + decodeURI(tag).replace(/ /g, '-') + '\']"] > a').forEach(function(el) {
