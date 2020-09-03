@@ -384,11 +384,16 @@ if (oneExist(".text_size") == true) {
 //load active tab from url
 //https://www.w3schools.com/JSREF/prop_loc_hash.asp
 var hash = document.location.hash
+// UIkit.util.on('#patinfo_switcher', 'show', function() {
+//   // do something
+// });
 if (hash && oneExist("#patinfo_switcher") == true) {
-  document.querySelector('li' + hash + '>a').click();
-  // UIkit.tab("#patinfo_tab").show(hash.slice(-1) - 1)
-  // var index = hash.slice(-1) - 1
-  // UIkit.switcher("#patinfo_switcher").show(index)
+  var index = hash.slice(-1) - 1
+  UIkit.util.on('#patinfo_switcher', 'show', function() {
+    UIkit.tab("#patinfo_tab").show(index)
+    UIkit.switcher("#patinfo_switcher").show(index)
+  });
+  //x document.querySelector('li' + hash + '>a').click();
   console.log('li' + hash + '>a')
 
   // UIkit.switcher("#patinfo_switcher", {active: hash.slice(-1) - 1})
