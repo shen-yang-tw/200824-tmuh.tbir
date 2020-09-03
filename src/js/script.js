@@ -384,8 +384,8 @@ if (oneExist(".text_size") == true) {
 //load active tab from url
 //https://www.w3schools.com/JSREF/prop_loc_hash.asp
 UIkit.util.ready(function() {
+  var hash = document.location.hash
   if (hash && oneExist("#patinfo_switcher") == true) {
-    var hash = document.location.hash
     console.log(hash)
     // document.querySelector('li' + hash + '>a').click();
     UIkit.util.$$('li' + hash + '>a').forEach(function(el) {
