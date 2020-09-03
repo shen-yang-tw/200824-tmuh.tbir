@@ -397,7 +397,7 @@ var hash = document.location.hash
 if (hash && oneExist("#patinfo_switcher") == true) {
   var index = hash.slice(-1) - 1
   UIkit.tab("#patinfo_tab").show(index)
-  UIkit.switcher("#patinfo_switcher").show(index)
+  // UIkit.switcher("#patinfo_switcher").show(index)
 //x document.querySelector('li' + hash + '>a').click();
   console.log('li' + hash + '>a')
 
