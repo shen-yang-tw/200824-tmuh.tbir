@@ -386,12 +386,9 @@ if (oneExist(".text_size") == true) {
 var hash = document.location.hash;
 if (hash) {
   // UIkit.$(hash).addClass('uk-active');
-  // UIkit.switcher('#patinfo_switcher').show(hash);
-  UIkit.switcher('#patinfo_switcher').beforeshow(
-    function() {
-      UIkit.$(hash).addClass('uk-active');
-    }
-  );
+  UIkit.switcher('#patinfo_switcher').show(hash, function(){
+    UIkit.$(hash).addClass('uk-active');
+  });
 }
 // UIkit.on('beforeready.uk.dom', function() {
 //   var hash = document.location.hash;
