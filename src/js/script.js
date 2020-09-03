@@ -391,7 +391,7 @@ if (oneExist(".text_size") == true) {
 //   });
 // }
 UIkit.util.ready(function() {
-  var hash = window.location.hash;
+  var hash = document.location.hash;
   console.log(hash)
   if (hash) {
     document.querySelector(hash).click();
