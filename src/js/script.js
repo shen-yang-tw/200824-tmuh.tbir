@@ -386,10 +386,12 @@ if (oneExist(".text_size") == true) {
 UIkit.util.ready(function() {
   var hash = document.location.hash
   if (hash && oneExist("#patinfo_switcher") == true) {
-    console.log(hash)
     // document.querySelector('li' + hash + '>a').click();
     // UIkit.tab("#patinfo_tab").show(hash.slice(-1) - 1)
-    UIkit.switcher("#patinfo_switcher").show(hash.slice(-1) - 1)
+    var index = hash.slice(-1) - 1
+    UIkit.switcher("#patinfo_switcher").show(index)
+    console.log(index + ', ' + hash && oneExist("#patinfo_switcher"))
+
     // UIkit.switcher("#patinfo_switcher", {active: hash.slice(-1) - 1})
     // UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
     // UIkit.util.$$('li' + hash).classList.add('uk-active')
