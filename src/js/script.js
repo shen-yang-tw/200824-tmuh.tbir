@@ -387,12 +387,15 @@ var hash = document.location.hash
 // UIkit.util.on('#patinfo_switcher', 'show', function() {
 //   // do something
 // });
+
+// UIkit.util.on('#patinfo_switcher', 'show', function() {
+  
+//   UIkit.tab("#patinfo_tab").show(index)
+//   UIkit.switcher("#patinfo_switcher").show(index)
+// });
+
 if (hash && oneExist("#patinfo_switcher") == true) {
   var index = hash.slice(-1) - 1
-  // UIkit.util.on('#patinfo_switcher', 'show', function() {
-  //   UIkit.tab("#patinfo_tab").show(index)
-  //   UIkit.switcher("#patinfo_switcher").show(index)
-  // });
   UIkit.tab("#patinfo_tab").show(index)
   UIkit.switcher("#patinfo_switcher").show(index)
 //x document.querySelector('li' + hash + '>a').click();
