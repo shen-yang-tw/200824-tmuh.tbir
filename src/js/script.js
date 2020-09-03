@@ -387,12 +387,14 @@ UIkit.util.ready(function() {
   var hash = document.location.hash;
   console.log(hash)
   if (hash && oneExist("#patinfo_switcher") == true) {
-    document.querySelector('li' + hash + '>a').click();
-    // UIkit.util.$$('li' + hash + '>a').click()
+    // document.querySelector('li' + hash + '>a').click();
+    UIkit.util.$$('li' + hash + '>a').forEach(function(el) {
+      el.click();
+    })
     // UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
     // UIkit.util.$$('li' + hash).classList.add('uk-active')
     // UIkit.util.$$('li[uk-filter-control="[data-tag~=\'' + decodeURI(tag).replace(/ /g, '-') + '\']"] > a').forEach(function(el) {
-    //     el.click();
+    //   el.click();
     // });
   }
 });
