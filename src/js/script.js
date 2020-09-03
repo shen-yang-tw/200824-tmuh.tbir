@@ -386,7 +386,8 @@ if (oneExist(".text_size") == true) {
 var hash = document.location.hash;
 if (hash) {
   // UIkit.$(hash).addClass('uk-active');
-  document.querySelector('li' + hash + '>a').click();
+  // document.querySelector('li' + hash + '>a').click();
+  UIkit.switcher('#patinfo_switcher').show(hash);
 }
 
 // if (allExist(".logo_cht, logo_eng") == true) {
