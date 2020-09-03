@@ -381,42 +381,23 @@ if (oneExist(".text_size") == true) {
   fontResize("text-m", "text-l", "text_size", "text_size-s", "text_size-m", "text_size-l", "active");
 }
 
-//load active tab from url
+//Uikit 3 load active tab & switcher from url. Usage: page.html#tab3
 //https://www.w3schools.com/JSREF/prop_loc_hash.asp
 var hash = document.location.hash
-// UIkit.util.on('#patinfo_switcher', 'show', function() {
-//   // do something
-// });
-
-// UIkit.util.on('#patinfo_switcher', 'show', function() {
-  
-//   UIkit.tab("#patinfo_tab").show(index)
-//   UIkit.switcher("#patinfo_switcher").show(index)
-// });
-
 if (hash && oneExist("#patinfo_switcher") == true) {
   var index = hash.slice(-1) - 1
   UIkit.tab("#patinfo_tab").show(index)
-  // UIkit.switcher("#patinfo_switcher").show(index)
-//x document.querySelector('li' + hash + '>a').click();
-  console.log('li' + hash + '>a')
-
-  // UIkit.switcher("#patinfo_switcher", {active: hash.slice(-1) - 1})
-  // UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
-  // UIkit.util.$$('li' + hash).classList.add('uk-active')
-  // UIkit.util.$$('li[uk-filter-control="[data-tag~=\'' + decodeURI(tag).replace(/ /g, '-') + '\']"] > a').forEach(function(el) {
-  //   el.click();
-  // });
+  // console.log('li' + hash + '>a')
 }
+function showTab (sl) {
+  var buttons = document.querySelectorAll(sl)
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].onclick = function() {
+      UIkit.tab("#patinfo_tab").show(i)
+    }
+  }
 
-// UIkit.util.ready(function() {});
-
-// UIkit.on('beforeready.uk.dom', function() {
-//   var hash = document.location.hash;
-//   if (hash) {
-//     UIkit.$(hash).addClass('uk-active');
-//   }
-// });
+}
 
 // if (allExist(".logo_cht, logo_eng") == true) {
 //   var fitText = require("FitText-UMD");

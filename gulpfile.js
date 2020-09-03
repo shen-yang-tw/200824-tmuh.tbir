@@ -310,12 +310,12 @@ gulp.task('css', function() {
     .pipe(
       postcss([
         atimport(),
-        purgecss({
-          content: [paths.src.html, paths.src.js],
-          // whitelist: ['opacity-100'],
-          defaultExtractor: content =>
-            content.match(/[\w-/:!@]+(?<!:)/g) || []
-        }),
+        // purgecss({
+        //   content: [paths.src.html, paths.src.js],
+        //   // whitelist: ['opacity-100'],
+        //   defaultExtractor: content =>
+        //     content.match(/[\w-/:!@]+(?<!:)/g) || []
+        // }),
         autoprefixer()
       ])
     )
