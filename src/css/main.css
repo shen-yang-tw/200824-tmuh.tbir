@@ -11530,6 +11530,30 @@ a, span, label, strong, small {
   border-color: rgba(0, 0, 0, 0.9) !important;
 }
 
+.border_dashed, .border_dashed-before.uk-tab::before {
+  border-style: dashed;
+}
+
+.border_dashed\!, .border_dashed-before\!.uk-tab::before {
+  border-style: dashed !important;
+}
+
+.border_dotted, .border_dotted-before.uk-tab::before {
+  border-style: dotted;
+}
+
+.border_dotted\!, .border_dotted-before\!.uk-tab::before {
+  border-style: dotted !important;
+}
+
+.border_double, .border_double-before.uk-tab::before {
+  border-style: double;
+}
+
+.border_double\!, .border_double-before\!.uk-tab::before {
+  border-style: double !important;
+}
+
 .border2, .border2 li a {
   border-width: 2px;
 }
