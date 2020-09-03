@@ -393,7 +393,8 @@ if (oneExist(".text_size") == true) {
 UIkit.util.ready(function() {
   var hash = window.location.hash;
   if (hash) {
-    UIkit.util.$$(hash).addClass('uk-active');
+    // UIkit.util.$$('li' + hash).addClass('uk-active');
+    AddClass(hash, 'uk-active')
     // UIkit.util.$$('li[uk-filter-control="[data-tag~=\'' + decodeURI(tag).replace(/ /g, '-') + '\']"] > a').forEach(function(el) {
     //     el.click();
     // });
