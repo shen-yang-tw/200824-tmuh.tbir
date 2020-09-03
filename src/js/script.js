@@ -387,7 +387,11 @@ var hash = document.location.hash;
 if (hash) {
   // UIkit.$(hash).addClass('uk-active');
   // document.querySelector('li' + hash + '>a').click();
-  UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
+  // UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
+  UIkit.util.on('#patinfo_switcher', 'beforeshow', function() {
+    document.querySelector('li' + hash + '>a').click();
+  });
+
   // UIkit.switcher('#patinfo_switcher').show(hash)
 }
 // UIkit.util.ready(function() {
