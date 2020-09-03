@@ -389,11 +389,13 @@ var hash = document.location.hash
 // });
 if (hash && oneExist("#patinfo_switcher") == true) {
   var index = hash.slice(-1) - 1
-  UIkit.util.on('#patinfo_switcher', 'show', function() {
-    UIkit.tab("#patinfo_tab").show(index)
-    UIkit.switcher("#patinfo_switcher").show(index)
-  });
-  //x document.querySelector('li' + hash + '>a').click();
+  // UIkit.util.on('#patinfo_switcher', 'show', function() {
+  //   UIkit.tab("#patinfo_tab").show(index)
+  //   UIkit.switcher("#patinfo_switcher").show(index)
+  // });
+  UIkit.tab("#patinfo_tab").show(index)
+  UIkit.switcher("#patinfo_switcher").show(index)
+//x document.querySelector('li' + hash + '>a').click();
   console.log('li' + hash + '>a')
 
   // UIkit.switcher("#patinfo_switcher", {active: hash.slice(-1) - 1})
