@@ -394,7 +394,8 @@ UIkit.util.ready(function() {
   var hash = document.location.hash;
   console.log(hash)
   if (hash) {
-    document.querySelector(hash).click();
+    UIkit.util.$$('li' + hash + '>a').click()
+    // document.querySelector(hash).click();
     // UIkit.util.$$('li' + hash).AddClass(hash, 'uk-active')
     // UIkit.util.$$('li' + hash).classList.add('uk-active')
     // UIkit.util.$$('li[uk-filter-control="[data-tag~=\'' + decodeURI(tag).replace(/ /g, '-') + '\']"] > a').forEach(function(el) {
