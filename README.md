@@ -5,7 +5,7 @@
 ``yarn global add handlebars syncyarnlock sass postcss-cli browser-sync`` - https://classic.yarnpkg.com/en/docs/cli/add
 
 * `yarn add handlebars @fortawesome/fontawesome-free FitText-UMD tailwindcss uikit`
-	`yarn add @fullhuman/postcss-purgecss autoprefixer browser-sync del gulp gulp-compile-handlebars gulp-autoprefixer gulp-clean-css gulp-concat gulp-imagemin gulp-inject gulp-mode gulp-postcss gulp-rename gulp-replace gulp-sass gulp-uglify-es imagemin-jpeg-recompress imagemin-pngquant postcss-import gulp-autopolyfiller -D`
+	`yarn add @fullhuman/postcss-purgecss autoprefixer browser-sync del gulp gulp-compile-handlebars gulp-autoprefixer gulp-clean-css gulp-concat gulp-imagemin gulp-inject gulp-mode gulp-postcss gulp-rename gulp-replace gulp-sass gulp-uglify-es imagemin-jpeg-recompress imagemin-pngquant postcss-import -D`
 
 * `yarn install` Install all packages from package.json, then run ``yarn upgrade`` Not working on all packages
 	Just run below

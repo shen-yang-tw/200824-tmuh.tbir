@@ -11,7 +11,7 @@ const pngQuint = require('imagemin-pngquant');
 const browserSync = require('browser-sync').create();
 const gulpautoprefixer = require('gulp-autoprefixer');
 const jpgRecompress = require('imagemin-jpeg-recompress');
-const autopolyfiller = require('gulp-autopolyfiller');
+// const autopolyfiller = require('gulp-autopolyfiller');
 
 const inject = require('gulp-inject');
 const postcss = require('gulp-postcss');
