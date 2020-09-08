@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html class="text-m" lang="zh-Hant-TW">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="format-detection" content="telephone=no">
+	<!-- Fix phone number style for MS Edge -->
+	<meta name="Designer&Developer" content="楊軒羽 Shen Yang | Graphic Web Designer & Front-end Developer | 前端設計工程師">
+	<title>臺灣乳房植入物登錄系統 Taiwan Breast Implant Registry</title>
+	<!-- uk:css -->
+	<link rel="stylesheet" href="css/uikit.min.css">
+	<!-- endinject -->
+	<!-- tw:css -->
+	<link rel="stylesheet" href="css/tailwind.css">
+	<!-- endinject -->
+	<!-- fa:css -->
+	<link rel="stylesheet" href="css/fontawesome.min.css">
+	<!-- endinject -->
+	<!-- main:css -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- endinject -->
+	<!-- colors:css -->
+	<link rel="stylesheet" href="css/colors.css">
+	<!-- endinject -->
+	<!-- style:css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- endinject -->
+	<!-- style2:css -->
+	<!-- endinject -->
+	<!-- head:js -->
+	<script src="js/uikit-icons.min.js"></script>
+	<script src="js/uikit.min.js"></script>
+	<!-- endinject -->
+	<!-- inject:js -->
+	<script src="js/nav-menu.js" defer></script>
+	<script src="js/script.js" defer></script>
+	<!-- endinject --></head>
+
+<body id="top" class="page">
+	<div class="uk-position-top-left"><a href="#content" id="gotocenter" title="跳到主要內容"
+			class="sr-only sr-only-focusable">跳到主要內容</a></div>
+	
+	<!-- header -->
+	<header class="shadow relative">
+		<div class="shadow-xl uk-sticky" uk-sticky="media: (max-width: 959px)">
+			<nav class="bg-gray-100 shadow-none">
+				<div class="bg_primary">
+					<div class="px-4 py-1 uk-container">
+						<div class="uk-flex-middle uk-grid uk-grid-small uk-grid-match uk-child-width-expand" uk-grid>
+							<div class="uk-position-z-index">
+								<h1 class="m-0 uk-flex uk-flex-middle">
+									<a class="logo" href="index.html" title="臺灣乳房植入物登錄系統 Taiwan Breast Implant Registry">
+										<img class="uk-preserve" data-src="img/logo.svg" data-width data-height alt="臺灣乳房植入物登錄系統 Taiwan Breast Implant Registry" uk-img uk-svg>
+									</a>
+								</h1>
+							</div>
+							<div class="m-0 relative uk-width-auto uk-visible@m">
+								<div class="sub_nav space-x-1 text-sm uk-flex uk-flex-middle">
+									<span><a class="px-2 text-white" href="index.html">回首頁</a></span>
+									<span><a class="px-2 text-white" href="00myinfo.html">我的植入物資訊</a></span>
+									<span><button class="text-white border-none uk-button uk-button-default" type="button"
+											title="註冊/登入/登出"><i class="-mb-1 fas fa-user-circle fa-lg"></i></button></span>
+									<div class="min_width-50 uk-dropdown" uk-dropdown>
+										<ul class="uk-nav uk-dropdown-nav">
+											<li><a class="hover:underline py-2" href="06register.html">醫師註冊</a></li>
+											<li><a class="hover:underline py-2" href="06doclogin.html">醫師登入</a></li>
+											<li><a class="hover:underline py-2" href="06patlogin.html">病人登入</a></li>
+											<li><a class="hover:underline py-2" href="index.html">登出</a></li>
+										</ul>
+									</div>
+									<span class="text_size text_size-s hover_bg"><button class="text-white px-2 uk-button"
+											title="縮小字級">A-</button></span>
+									<span class="text_size text_size-m hover_bg active"><button class="text-white px-2 uk-button"
+											title="適中字級">A</button></span>
+									<span class="text_size text_size-l hover_bg"><button class="text-white px-2 uk-button"
+											title="加大字級">A+</button></span>
+								</div>
+							</div>
+							<div class="uk-flex-nowrap uk-width-auto uk-hidden@m">
+								<div class="uk-inline">
+									<button class="text-white border-none h-full uk-button uk-button-default" type="button"
+										title="註冊/登入/登出"><i class="-mb-1 fas fa-user-circle fa-lg"></i></button>
+									<div class="min_width-50 uk-dropdown" uk-dropdown>
+										<ul class="uk-nav uk-dropdown-nav">
+											<li><a class="hover:underline py-2" href="06register.html">醫師註冊</a></li>
+											<li><a class="hover:underline py-2" href="06doclogin.html">醫師登入</a></li>
+											<li><a class="hover:underline py-2" href="06patlogin.html">病人登入</a></li>
+											<li><a class="hover:underline py-2" href="index.html">登出</a></li>
+										</ul>
+									</div>
+								</div>
+								<button class="min_width-30! text-white px-0 uk-flex uk-flex-right uk-navbar-toggle" uk-navbar-toggle-icon
+									uk-toggle="target: #offcanvas"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container_responsive@s uk-flex uk-visible@m uk-container uk-navbar" uk-navbar>
+					<div class="uk-navbar-center">
+						<ul class="nav_bar nav_bar-primary uk-tab uk-light">
+							<li hidden></li>
+							<li>
+								<a class="text-base font-bold color_primary-text!" href="#"
+									onmouseover="viewHeight('.nav_bar [uk-dropdown]', 'header')">關於我們</a>
+								<div class="bg_white_opacity-90 uk-overflow-auto uk-dropdown" uk-dropdown="offset: 0">
+									<ul class="nav_header-dotted uk-nav uk-dropdown-nav">
+										<li class="mt-0 uk-nav-header"><a class="hover:underline text-base" href="01about01.html">登錄系統介紹</a>
+										</li>
+										<li class="mt-0 uk-nav-header">
+											<a class="hover:underline text-base" href="#">組織架構</a>
+											<ul class="uk-nav-sub">
+												<li><a class="hover:underline text-base" href="01about0201.html">主持人</a></li>
+												<li><a class="hover:underline text-base" href="01about0202.html">委員會</a></li>
+											</ul>
+										</li>
+										<li class="mt-0 uk-nav-header"><a class="hover:underline text-base" href="01about03.html">相關法規</a>
+										</li>
+										<li class="mt-0 uk-nav-header"><a class="hover:underline text-base" href="01about04.html">合作醫院或診所</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a class="text-base font-bold color_primary-text!" href="#"
+									onmouseover="viewHeight('.nav_bar [uk-dropdown]', 'header')">給病人端的資訊</a>
+								<div class="bg_white_opacity-90 uk-overflow-auto uk-dropdown" uk-dropdown="offset: 0">
+									<ul class="nav_header-dotted uk-nav uk-dropdown-nav">
+										<li class="mt-0 uk-nav-header"><a class="hover:underline text-base"
+												href="02patinfo01.html">病人登錄的好處</a></li>
+										<li class="mt-0 uk-nav-header">
+											<a class="hover:underline text-base" href="02patinfo02.html">病人登錄方式</a>
+											<ul class="hidden_ie uk-nav-sub">
+												<li><a class="hover:underline text-base" href="02patinfo02.html#1">登錄流程</a></li>
+												<li><a class="hover:underline text-base" href="02patinfo02.html#2">查資料流程</a></li>
+												<li><a class="hover:underline text-base" href="02patinfo02.html#3">相關表單</a></li>
+											</ul>
+										</li>
+										<li class="mt-0 uk-nav-header"><a class="hover:underline text-base" href="02patinfo03.html">隱私保護</a>
+										</li>
+										<li class="mt-0 uk-nav-header"><a class="hover:underline text-base"
+												href="02patinfo04.html">病人端常見問題</a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a class="text-base font-bold color_primary-text!" href="#"
+									onmouseover="viewHeight('.nav_bar [uk-dropdown]', 'header')">給醫療人員的資訊</a>
+								<div class="bg_white_opacity-90 uk-overflow-auto uk-dropdown" uk-dropdown="offset: 0">
+									<ul class="nav_header-dotted uk-nav uk-dropdown-nav">
+										<li class="mt-0 uk-nav-header"><a class="hover:underline text-base"
+												href="03docinfo01.html">醫療人員登陸的好處</a></li>
+										<li class="mt-0 uk-nav-header">
+											<a class="hover:underline text-base" href="03docinfo02.html">醫療人員登錄方式</a>
+											<ul class="hidden_ie uk-nav-sub">
+												<li><a class="hover:underline text-base" href="03docinfo02.html#1">登錄流程</a></li>
+												<li><a class="hover:underline text-base" href="03docinfo02.html#2">查資料流程</a></li>
+												<li><a class="hover:underline text-base" href="03docinfo02.html#3">相關表單</a></li>
+											</ul>
+										</li>
+										<li class="mt-0 uk-nav-header"><a class="hover:underline text-base"
+												href="03docinfo03.html">醫護人員常見問題</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a class="text-base font-bold color_primary-text!" href="04publication.html"
+									onmouseover="viewHeight('.nav_bar [uk-dropdown]', 'header')">年度報告出版品</a></li>
+							<li><a class="text-base font-bold color_primary-text!" href="05contact.html"
+									onmouseover="viewHeight('.nav_bar [uk-dropdown]', 'header')">聯繫方式</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<hr class="border_black_opacity-20 m-0">
+		</div>
+		<div id="offcanvas" class="uk-offcanvas" uk-offcanvas>
+			<div class="bg_primary-darker py-5 uk-offcanvas-bar">
+				<button class="uk-offcanvas-close" type="button" title="刪除" uk-close></button>
+				<ul class="pt-6 uk-nav uk-nav-default">
+					<li class="py-1 uk-parent">
+						<div class="flex justify-between">
+							<a class="flex flex-1 items-center" href="#"><span class="text-white">關於我們</span></a>
+							<a class="flex flex-none items-start justify-end pt-px w-16" href="javascript:void(0)" title="展開/收合選單"><span
+									class="toggle uk-icon" uk-icon="icon: chevron-right"></span><span class="toggle hidden uk-icon"
+									uk-icon="icon: chevron-down"></span class="toggle"></a>
+						</div>
+						<ul class="toggle hidden uk-nav-sub">
+							<li class="pr-5"><a href="01about01.html"><span class="text-white text-opacity-50">登錄系統介紹</span></a></li>
+							<li class="mt-0 uk-nav-header uk-parent">
+								<div class="flex justify-between">
+									<a class="flex flex-1 items-center" href="#"><span class="text-white">組織架構</span></a>
+									<a class="flex flex-none items-start justify-end pt-px w-16" href="javascript:void(0)"
+										title="展開/收合選單"><span class="toggle uk-icon" uk-icon="icon: chevron-right"></span><span
+											class="toggle hidden uk-icon" uk-icon="icon: chevron-down"></span class="toggle"></a>
+								</div>
+								<ul class="toggle hidden uk-nav-sub">
+									<li class="pr-5"><a href="01about0201.html"><span class="text-white text-opacity-50">主持人</span></a></li>
+									<li class="pr-5"><a href="01about0202.html"><span class="text-white text-opacity-50">委員會</span></a></li>
+								</ul>
+							</li>
+							<li class="pr-5"><a href="01about03.html"><span class="text-white text-opacity-50">相關法規</span></a></li>
+							<li class="pr-5"><a href="01about04.html"><span class="text-white text-opacity-50">合作醫院或診所</span></a></li>
+						</ul>
+					</li>
+					<li class="py-1 uk-parent">
+						<div class="flex justify-between">
+							<a class="flex flex-1 items-center" href="#"><span class="text-white">給病人端的資訊</span></a>
+							<a class="flex flex-none items-start justify-end pt-px w-16" href="javascript:void(0)" title="展開/收合選單"><span
+									class="toggle uk-icon" uk-icon="icon: chevron-right"></span><span class="toggle hidden uk-icon"
+									uk-icon="icon: chevron-down"></span class="toggle"></a>
+						</div>
+						<ul class="toggle hidden uk-nav-sub">
+							<li class="pr-5"><a href="02patinfo01.html"><span class="text-white text-opacity-50">病人登錄的好處</span></a></li>
+							<li class="mt-0 uk-nav-header uk-parent">
+								<div class="flex justify-between">
+									<a class="flex flex-1 items-center" href="02patinfo02.html"><span class="text-white">病人登錄方式</span></a>
+									<a class="flex flex-none items-start justify-end pt-px w-16" href="javascript:void(0)"
+										title="展開/收合選單"><span class="toggle uk-icon" uk-icon="icon: chevron-right"></span><span
+											class="toggle hidden uk-icon" uk-icon="icon: chevron-down"></span class="toggle"></a>
+								</div>
+								<ul class="toggle hidden uk-nav-sub">
+									<li class="pr-5"><a href="02patinfo02.html#1"><span class="text-white text-opacity-50">登錄流程</span></a></li>
+									<li class="pr-5"><a href="02patinfo02.html#2"><span class="text-white text-opacity-50">查資料流程</span></a></li>
+									<li class="pr-5"><a href="02patinfo02.html#3"><span class="text-white text-opacity-50">相關表單</span></a></li>
+								</ul>
+							</li>
+							<li class="pr-5"><a href="02patinfo03.html"><span class="text-white text-opacity-50">隱私保護</span></a></li>
+							<li class="pr-5"><a href="02patinfo04.html"><span class="text-white text-opacity-50">病人端常見問題</span></a></li>
+						</ul>
+					</li>
+					<li class="py-1 uk-parent">
+						<div class="flex justify-between">
+							<a class="flex flex-1 items-center" href="#"><span class="text-white">給醫療人員的資訊</span></a>
+							<a class="flex flex-none items-start justify-end pt-px w-16" href="javascript:void(0)" title="展開/收合選單"><span
+									class="toggle uk-icon" uk-icon="icon: chevron-right"></span><span class="toggle hidden uk-icon"
+									uk-icon="icon: chevron-down"></span class="toggle"></a>
+						</div>
+						<ul class="toggle hidden uk-nav-sub">
+							<li class="pr-5"><a href="03docinfo01.html"><span class="text-white text-opacity-50">醫療人員登陸的好處</span></a></li>
+							<li class="mt-0 uk-nav-header uk-parent">
+								<div class="flex justify-between">
+									<a class="flex flex-1 items-center" href="03docinfo02.html"><span class="text-white">醫療人員登錄方式</span></a>
+									<a class="flex flex-none items-start justify-end pt-px w-16" href="javascript:void(0)"
+										title="展開/收合選單"><span class="toggle uk-icon" uk-icon="icon: chevron-right"></span><span
+											class="toggle hidden uk-icon" uk-icon="icon: chevron-down"></span class="toggle"></a>
+								</div>
+								<ul class="toggle hidden uk-nav-sub">
+									<li class="pr-5"><a href="03docinfo02.html#1"><span class="text-white text-opacity-50">登錄流程</span></a></li>
+									<li class="pr-5"><a href="03docinfo02.html#2"><span class="text-white text-opacity-50">查資料流程</span></a></li>
+									<li class="pr-5"><a href="03docinfo02.html#3"><span class="text-white text-opacity-50">相關表單</span></a></li>
+								</ul>
+							</li>
+							<li class="pr-5"><a href="03docinfo03.html"><span class="text-white text-opacity-50">醫護人員常見問題</span></a></li>
+						</ul>
+					</li>
+					<li class="py-1 uk-parent">
+						<a class="p-0" href="04publication.html"><span class="text-white">年度報告及出版品</span></a>
+					</li>
+					<li class="py-1 uk-parent">
+						<a class="p-0" href="05contact.html"><span class="text-white">聯繫方式</span></a>
+					</li>
+	
+				</ul>
+			</div>
+		</div>
+	</header>
+	<!-- header -->
+	<!-- page main content -->
+	<section class="relative" uk-height-viewport="expand: true">
+	  <!-- <div class="bg_primary opacity10 uk-position-cover"></div> -->
+	  <div class="container_responsive@s uk-container">
+	    <div class="uk-clearfix">
+	      <!-- uk-breadcrumb -->
+	      <ul class="px-2 s:p-0 uk-float-left uk-breadcrumb">
+	      	<li><a class="text-xs m:text-sm" href="index.html">首頁</a></li>
+	      	<li><span class="text-xs m:text-sm">給醫療人員的資訊</span></li>
+	      	<li><span class="text-xs m:text-sm">醫療人員登錄方式</span></li>
+	      </ul>
+	      <!-- uk-breadcrumb -->    </div>
+	    <div class="min_height-550 s:mb-2 uk-card uk-card-small uk-card-default uk-card-body">
+	      <h2 class="btm_line text-2xl">
+	        醫療人員登錄方式
+	      </h2>
+	      <div id="content">
+	        <ul class="border2 border_primary-dark border_dotted-before uk-tab" uk-tab>
+	        	<li><a href="#">登錄流程</a></li>
+	        	<li><a href="#">查資料流程</a></li>
+	        	<li><a href="#">相關表單</a></li>
+	        </ul>
+	        <ul class="uk-switcher uk-margin">
+	        	<li>
+	        		<ol class="list list_upper-latin">
+	        			<li>
+	        				<strong class="color_dark">如何註冊參與「臺灣乳房植入物登錄系統(Taiwan Breast Implant Registry, TBIR)」？</strong>
+	        				<p class="text-justify">
+	        					如果您是執行乳房植入物相關手術之外科醫師，您可以從此連結進行註冊與登錄，你可以從此處觀看註冊說明書。<br>完成註冊後，本登錄系統團隊將會寄發完成註冊的確認信給您，您也可以開始登錄病患手術資料。
+	        				</p>
+	        			</li>
+	        			<li>
+	        				<strong class="color_dark">資料保密協議</strong>
+	        				<p class="text-justify"></p>
+	        			</li>
+	        			<li>
+	        				<strong class="color_dark">完成註冊後，如何登錄病人的資料？</strong>
+	        				<p class="text-justify">
+	        					當您完成註冊後，您可以開始著手登錄病人的資料，在登錄前您需要事前通知病人，並提供其「TBIR受術者參與同意書」，取得同意後，您可以採用紙本或線上的方式進行病人資料登錄。<br>
+	        					如果您採用紙本登錄方式，請您將完成的「TBIR受術者參與同意書」及「TBIR登錄表單」，寄至XXXXX，本登錄系統的工作人員將會將您所填寫的資料進行登錄。<br>
+	        					如果您採用線上登錄方式，請您至登錄頁面進行登錄，並依照系統內的表單將資料填寫完畢後送出，你可以從此處觀看資料登錄流程說明書。
+	        					(這邊會插入一個資料收集流程圖)
+	        				</p>
+	        				<img class="w-full my-4" data-src="https://fakeimg.pl/350x200/?text=Chart" data-width data-height alt="資料收集流程圖" uk-img>
+	        				<p class="text-justify">
+	        					當您將病患資料登錄完成後，您亦可以從系統內觀看您所登錄之資料。如果您對登錄過程有任何疑問，歡迎與我們聯繫，您可以來電至XX-XXXXXXX，或發送電子郵件至XX@XX.XX。
+	        				</p>
+	        			</li>
+	        		</ol>
+	        	</li>
+	        	<li>
+	        		<p class="text-justify"></p>
+	        	</li>
+	        	<ul>
+	        		<ul class="list_initial space-y-2">
+	        			<li><a class="color_primary link_line" href="#">TBIR說明手冊</a></li>
+	        			<li><a class="color_primary link_line" href="#">TBIR受術者參與同意書</a></li>
+	        			<li><a class="color_primary link_line" href="#">TBIR登錄表單</a></li>
+	        			<li><a class="color_primary link_line" href="#">TBIR 註冊流程說明書</a></li>
+	        			<li><a class="color_primary link_line" href="#">TBIR 資料登錄流程說明書</a></li>
+	        			<li><a class="color_primary link_line" href="#">TBIR 資料保密協議</a></li>
+	        		</ul>
+	        		</li>
+	        	</ul>
+	        
+	      </div>
+	      <!-- End #content -->
+	    </div>
+	    <!-- End uk-card -->
+	  </div>
+	</section>
+	<!-- page main content -->
+	<!-- footer -->
+	<div id="footer" class="border-solid border-t border_primary-light bg-white relative">
+		<div class="p-3">
+			<div class="container_responsive@s uk-container relative">
+				<footer class="uk-grid uk-grid-divider uk-grid-small uk-child-width-expand" uk-grid>
+					<div uk-margin>
+						<div class="text-center uk-flex-center uk-grid" uk-grid uk-margin>
+							<div><strong>臺灣乳房植入物登錄系統</strong></div>
+							<div>電話：02-66382736 分機1219</div>
+							<div>地址：106 臺北市大安區基隆路二段172-1號12樓 衛生福利政策研究中心</div>
+							<div><i class="mr-1 fas fa-user-cog"></i><a href="06admlogin.html">系統管理員登入</a></div>
+							<div class="w-full">Copyright © 2020 臺北醫學大學-臺灣乳房植入物登錄系統團隊</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+			<!-- End container_responsive@s uk-container -->
+		</div>
+	</div>
+	<!-- footer -->
+	
+	<a id="gototop"
+		class="color_white bg_black_opacity-50 hover:bg_black_opacity-70 opacity-0 no-underline p-2 rounded uk-text-center uk-position-fixed uk-position-small uk-position-bottom-right"
+		href="#top" title="回到最上" uk-scroll uk-totop><span hidden>回到最上</span></a></body>
+
+</html>

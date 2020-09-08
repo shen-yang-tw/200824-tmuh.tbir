@@ -359,12 +359,42 @@ function slideShowFocus(slideshow, tabsArray, thisFocus) {
   }
 }
 
+//Click 'Enter' to open window by the attribute 'href'
 function enterOpenUrl(targetWindow, thisKeyDown, event) {
   if (event.keyCode === 13) {
     window.open(thisKeyDown.getAttribute('href'), targetWindow)
   }
 }
 
+//Uikit 3 load active tab (or with switcher) from url [[for another page]]. Usage: page.html#3
+//https://www.w3schools.com/JSREF/prop_loc_hash.asp
+function urlShowTab(ukTab) {
+  var hash = document.location.hash
+  if (hash && oneExist(ukTab) == true) {
+    var index = hash.slice(1) - 1 //Extract string from the second position and to the end
+    UIkit.tab(ukTab).show(index)
+    // urlShowTab("#patinfo_tab")
+    // console.log('li' + hash + '>a')
+  }
+}
+
+//Click a link to show a tab by the 'index' [[in the same page]]
+function listShowTab(link, ukTab) {
+  var links = document.querySelectorAll(link)
+  for (var i = 0; i < links.length; i++) {
+    links[i].onclick = function() {
+      // const list = this.parentElement.parentElement.children
+      // const index = list.indexOf(this.parentElement) //It got error
+      //With ES6 destructuring you can do as below:
+      var index = [...this.parentElement.parentElement.children].indexOf(this.parentElement)
+      UIkit.tab(ukTab).show(index)
+    }
+  }
+}
+
+function logoSvg(logoSvg) {
+  document.querySelector(logoSvg).setAttribute("preserveAspectRatio", "xMinYMid")
+}
 
 if (oneExist("p:empty, h1:empty, h2:empty, h3:empty, h4:empty, h5:empty, h6:empty, .ifEmpty:empty") == true) {
   removeAll("p:empty, h1:empty, h2:empty, h3:empty, h4:empty, h5:empty, h6:empty, .ifEmpty:empty")
@@ -381,23 +411,9 @@ if (oneExist(".text_size") == true) {
   fontResize("text-m", "text-l", "text_size", "text_size-s", "text_size-m", "text_size-l", "active");
 }
 
-//Uikit 3 load active tab & switcher from url. Usage: page.html#tab3
-//https://www.w3schools.com/JSREF/prop_loc_hash.asp
-var hash = document.location.hash
-if (hash && oneExist("#patinfo_switcher") == true) {
-  var index = hash.slice(-1) - 1
-  UIkit.tab("#patinfo_tab").show(index)
-  // console.log('li' + hash + '>a')
-}
-function showTab (sl) {
-  var buttons = document.querySelectorAll(sl)
-  for (var i = 0; i < buttons.length; i++) {
-    buttons[i].onclick = function() {
-      UIkit.tab("#patinfo_tab").show(i)
-    }
-  }
-
-}
+//The two functions below must be togther
+urlShowTab(".border2.uk-tab")
+listShowTab(".nav_bar .uk-dropdown .uk-nav-sub>li>a", ".border2.uk-tab")
 
 // if (allExist(".logo_cht, logo_eng") == true) {
 //   var fitText = require("FitText-UMD");

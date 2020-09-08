@@ -10,6 +10,19 @@ strong {
   color: #e472a9;
 }
 
+.logo > img {
+  min-width: 450px;
+  max-height: 80px;
+}
+
+/*---------- IE10+ ------------------------------*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .logo > img {
+    width: 310px;
+    height: 80px;
+  }
+}
+
 .uk-sticky::before,
 #footer::before {
   content: "";

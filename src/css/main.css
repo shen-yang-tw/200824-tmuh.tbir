@@ -12536,6 +12536,28 @@ a, span, label, strong, small {
 }
 
 /*---------- List ------------------------------*/
+.list > li::before {
+  position: absolute;
+  margin-left: -4rem;
+  padding-right: 0.5rem;
+  padding-left: 1rem;
+  text-align: right;
+  width: 4rem;
+}
+
+.list > li {
+  position: relative;
+  margin-bottom: 10px;
+  left: 4rem;
+  width: calc(100% - 4rem);
+  text-align: justify;
+}
+
+.list > li > * {
+  display: inline-block;
+  margin: 0;
+}
+
 .list_striped > li {
   position: relative;
   z-index: 1;
@@ -12581,18 +12603,6 @@ a, span, label, strong, small {
   display: inline-block;
   counter-increment: dot-counter;
   content: "" counter(dot-counter) ". ";
-  padding-right: 10px;
-  margin-left: -30px;
-}
-
-.list_decimal > li {
-  margin-bottom: 10px;
-  padding-left: 30px;
-}
-
-.list_decimal > li > * {
-  display: inline-block;
-  margin: 0;
 }
 
 .list_decimal_ch {
@@ -12685,17 +12695,17 @@ a, span, label, strong, small {
   background: #fafafa;
 }
 
-.list_dot, .list_arrow {
-  list-style: none;
+.list_dot > li:before, .list_arrow > li:before {
+  margin-left: -2rem;
+  width: 2rem;
 }
 
 .list_dot > li, .list_arrow > li {
-  position: relative;
-  padding-left: 20px;
+  left: 2rem;
+  width: calc(100% - 2rem);
 }
 
 .list_dot > li:before {
-  position: absolute;
   content: "•";
   display: inline-block;
   font-style: normal;
@@ -12704,12 +12714,9 @@ a, span, label, strong, small {
   -webkit-font-smoothing: antialiased;
   font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
   font-weight: 900;
-  left: 0;
-  padding: 0;
 }
 
 .list_arrow > li:before {
-  position: absolute;
   content: "▸";
   display: inline-block;
   font-style: normal;
@@ -12718,8 +12725,6 @@ a, span, label, strong, small {
   -webkit-font-smoothing: antialiased;
   font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
   font-weight: 900;
-  left: 0;
-  padding: 0;
 }
 
 .list_vline > li:not(:last-child):after {
@@ -12731,6 +12736,48 @@ a, span, label, strong, small {
 .list_btmline > li:not(:last-child) {
   margin-bottom: 5px;
   padding: 10px 0 10px 5px;
+}
+
+.list_initial {
+  list-style: initial;
+  list-style-position: outside;
+}
+
+.list_initial > li {
+  width: calc(100% - 2.5rem);
+  position: relative;
+  left: 2.5rem;
+  text-align: justify;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .list_initial {
+    list-style: disc;
+  }
+}
+
+.list_decimal-leading-zero {
+  list-style: decimal-leading-zero;
+}
+
+.list_cjk-ideographic {
+  list-style: cjk-ideographic;
+}
+
+.list_upper-latin {
+  list-style: upper-latin;
+}
+
+.list_lower-latin {
+  list-style: lower-latin;
+}
+
+.list_upper-roman {
+  list-style: upper-roman;
+}
+
+.list_lower-roman {
+  list-style: lower-roman;
 }
 
 [class*=list_tabs] {
@@ -84217,7 +84264,7 @@ address, dl, fieldset, figure, ol, p, pre, ul {
         -ms-flex-preferred-size: 100%;
             flex-basis: 100%;
   }
-  .uk-dropdown-nav li > * {
+  .uk-dropdown-nav li > *:not(.hidden_ie) {
     display: block !important;
   }
   .height_ie {
@@ -84246,5 +84293,8 @@ address, dl, fieldset, figure, ol, p, pre, ul {
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   [uk-height-viewport] {
     height: auto !important;
+  }
+  .hidden_ie {
+    display: none !important;
   }
 }

@@ -11,8 +11,8 @@ const pngQuint = require('imagemin-pngquant');
 const browserSync = require('browser-sync').create();
 const gulpautoprefixer = require('gulp-autoprefixer');
 const jpgRecompress = require('imagemin-jpeg-recompress');
+const autopolyfiller = require('gulp-autopolyfiller');
 
-const mode = require('gulp-mode')(); //last '()' means a function must be needed or get err
 const inject = require('gulp-inject');
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
@@ -25,6 +25,13 @@ const replace = require('gulp-replace');
 // const webp = require('gulp-webp');
 var handlebars = require('gulp-compile-handlebars');
 
+//Mode
+// const mode = require('gulp-mode')(); //last '()' means a function must be needed or get err
+const mode = require('gulp-mode')({
+  modes: ["production", "development", "purge"],
+  default: "development",
+  verbose: false
+});
 
 // Paths
 var paths = {
@@ -75,6 +82,24 @@ gulp.task('tailwind', function() {
       postcss([
         atimport(),
         tailwindcss("tailwind.config.js"),
+        autoprefixer()
+      ])
+    ))
+    //Minify css
+    .pipe(mode.production(
+      cleanCSS({
+        compatibility: 'ie8'
+      })
+    ))
+    .pipe(mode.production(
+      rename({
+        suffix: '.min'
+      })
+    ))
+    .pipe(mode.purge(
+      postcss([
+        atimport(),
+        tailwindcss("tailwind.config.js"),
         purgecss({
           content: [paths.src.html, paths.src.js],
           // whitelist: ['opacity-100'],
@@ -85,16 +110,22 @@ gulp.task('tailwind', function() {
       ])
     ))
     //Minify css
-    // .pipe(mode.development(
-    //   cleanCSS({
-    //     compatibility: 'ie8'
-    //   })
-    // ))
+    .pipe(mode.purge(
+      cleanCSS({
+        compatibility: 'ie8'
+      })
+    ))
+    .pipe(mode.purge(
+      rename({
+        suffix: '.min'
+      })
+    ))
     // .pipe(mode.development(
     //   rename({
     //     suffix: '.min'
     //   })
     // ))
+
     //Minify css
     // .pipe(cleanCSS({
     //   compatibility: 'ie8'
@@ -103,17 +134,10 @@ gulp.task('tailwind', function() {
     //   suffix: '.min'
     // }))
 
-    // .pipe(mode.development(
-    //   cleanCSS({
-    //     compatibility: 'ie8'
-    //   })
-    //   .pipe(rename({
-    //     suffix: '.min'
-    //   }))
-    // ))
-
     .pipe(mode.development(gulp.dest(paths.src.root + paths.dist.css)))
     .pipe(mode.production(gulp.dest(paths.dist.root + paths.dist.css)))
+    .pipe(mode.purge(gulp.dest(paths.dist.root + paths.dist.css)))
+  // .pipe(mode.production(gulp.dest(paths.dist.root + paths.dist.css)))
   // .pipe(gulp.dest(paths.src.root + paths.dist.vendors))
   // .pipe(gulp.dest(paths.dist.root + paths.dist.vendors))
 });
@@ -307,33 +331,93 @@ gulp.task('sass', function() {
 // Minify + Combine CSS
 gulp.task('css', function() {
   return gulp.src([paths.src.css, '!' + paths.src.root + paths.dist.css + '/font*.css', '!' + paths.src.root + paths.dist.css + '/tail*.css', '!' + paths.src.root + paths.dist.css + '/ui*.css'])
-    .pipe(
+    .pipe(mode.development(
       postcss([
         atimport(),
-        // purgecss({
-        //   content: [paths.src.html, paths.src.js],
-        //   // whitelist: ['opacity-100'],
-        //   defaultExtractor: content =>
-        //     content.match(/[\w-/:!@]+(?<!:)/g) || []
-        // }),
         autoprefixer()
       ])
-    )
-    .pipe(cleanCSS({
-      compatibility: 'ie8'
-    }))
-    // .pipe(concat('app.css'))
-    .pipe(rename({
-      suffix: '.min'
-    }))
+    ))
+    .pipe(mode.production(
+      postcss([
+        atimport(),
+        autoprefixer()
+      ])
+    ))
+    .pipe(mode.production(
+      cleanCSS({
+        compatibility: 'ie8'
+      })
+    ))
+    .pipe(mode.production(
+      rename({
+        suffix: '.min'
+      })
+    ))
+    .pipe(mode.purge(
+      postcss([
+        atimport(),
+        purgecss({
+          content: [paths.src.html, paths.src.js],
+          // whitelist: ['opacity-100'],
+          defaultExtractor: content =>
+            content.match(/[\w-/:!@]+(?<!:)/g) || []
+        }),
+        autoprefixer()
+      ])
+    ))
+    .pipe(mode.purge(
+      cleanCSS({
+        compatibility: 'ie8'
+      })
+    ))
+    .pipe(mode.purge(
+      rename({
+        suffix: '.min'
+      })
+    ))
+    // .pipe(
+    //   postcss([
+    //     atimport(),
+    //     // purgecss({
+    //     //   content: [paths.src.html, paths.src.js],
+    //     //   // whitelist: ['opacity-100'],
+    //     //   defaultExtractor: content =>
+    //     //     content.match(/[\w-/:!@]+(?<!:)/g) || []
+    //     // }),
+    //     autoprefixer()
+    //   ])
+    // )
+    // .pipe(cleanCSS({
+    //   compatibility: 'ie8'
+    // }))
+    // // .pipe(concat('app.css'))
+    // .pipe(rename({
+    //   suffix: '.min'
+    // }))
     .pipe(gulp.dest(paths.dist.root + paths.dist.css))
 });
 
 // Minify + Combine JS
 gulp.task('js', function() {
   return gulp.src([paths.src.js, '!' + paths.src.root + paths.dist.js + '/ui*.js'])
+    // .pipe(mode.production(
+    //   autopolyfiller('script_polyfill.js', {
+    //     browsers: require('autoprefixer').default
+    //   })
+    // ))
+    // .pipe(autopolyfiller('script-polyfill.js'))
     .pipe(mode.production(
-      uglify(),
+      uglify()
+    ))
+    .pipe(mode.production(
+      rename({
+        suffix: '.min'
+      })
+    ))
+    .pipe(mode.purge(
+      uglify()
+    ))
+    .pipe(mode.purge(
       rename({
         suffix: '.min'
       })
@@ -343,7 +427,11 @@ gulp.task('js', function() {
     // .pipe(rename({
     //   suffix: '.min'
     // }))
-    .pipe(gulp.dest(paths.dist.root + paths.dist.js))
+    // .pipe(gulp.dest(paths.dist.root + paths.dist.js))
+    .pipe(mode.development(gulp.dest(paths.src.root + paths.dist.js)))
+    .pipe(mode.production(gulp.dest(paths.dist.root + paths.dist.js)))
+    .pipe(mode.purge(gulp.dest(paths.dist.root + paths.dist.js)))
+
     .pipe(browserSync.stream());
 });
 
@@ -406,14 +494,15 @@ gulp.task('temp', gulp.series('templates'));
 gulp.task('html', gulp.series('inject', 'build-inject'));
 
 //0. Preset
-gulp.task('start', gulp.series('vendors', 'sass', 'inject'));
+gulp.task('start', gulp.series('vendors', 'sass', 'js', 'inject'));
 
 //1. Preset then watch
-gulp.task('server', gulp.series('vendors', 'sass', 'inject', 'watch'));
+gulp.task('server', gulp.series('vendors', 'sass', 'js', 'inject', 'watch'));
 
 //3. Prepare all assets for production, run: 'yarn build-nohtml' or 'yarn build'
-gulp.task('build-nohtml', gulp.series('vendors', 'css', 'js', 'img'));
-gulp.task('build', gulp.series('dist', 'clean', 'vendors', 'css', 'js', 'img', 'build-inject'));
+gulp.task('build-nohtml', gulp.series('vendors', 'scss', 'js', 'img'));
+gulp.task('build-purge', gulp.series('dist', 'clean', 'vendors', 'scss', 'js', 'img', 'build-inject'));
+gulp.task('build', gulp.series('dist', 'clean', 'vendors', 'scss', 'js', 'img', 'build-inject'));
 
 //--- 0.First run: 'gulp start'
 //--- 1.For development run: 'gulp server' or 'yarn server'
