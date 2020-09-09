@@ -10,6 +10,7 @@
     "start": "gulp start",
     "server": "gulp server",
     "tailwind": "gulp tailwind --development",
+    "temp": "gulp temp --development",
     "build": "gulp build --production",
     "build-purge": "gulp build-purge --purge",
     "build-nohtml": "gulp build-nohtml --production"
