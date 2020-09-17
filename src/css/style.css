@@ -11,7 +11,7 @@ strong {
 }
 
 .logo > img {
-  min-width: 450px;
+  min-width: 200px;
   max-height: 80px;
 }
 
@@ -70,6 +70,12 @@ footer {
 
 .sub_nav [uk-dropdown] {
   z-index: 2;
+}
+
+@media (min-width: 960px) {
+  .logo > img {
+    min-width: 450px;
+  }
 }
 
 /*---------- Only landscape in mobile ------------------------------*/

@@ -494,15 +494,15 @@ gulp.task('temp', gulp.series('templates'));
 gulp.task('html', gulp.series('inject', 'build-inject'));
 
 //0. Preset
-gulp.task('start', gulp.series('vendors', 'sass', 'js', 'inject'));
+gulp.task('start', gulp.series('vendors', 'sass', 'js', 'templates', 'inject'));
 
 //1. Preset then watch
-gulp.task('server', gulp.series('vendors', 'sass', 'js', 'inject', 'watch'));
+gulp.task('server', gulp.series('vendors', 'sass', 'js', 'templates', 'inject', 'watch'));
 
 //3. Prepare all assets for production, run: 'yarn build-nohtml' or 'yarn build'
-gulp.task('build-nohtml', gulp.series('vendors', 'scss', 'js', 'img'));
-gulp.task('build-purge', gulp.series('dist', 'clean', 'vendors', 'scss', 'js', 'img', 'build-inject'));
-gulp.task('build', gulp.series('dist', 'clean', 'vendors', 'scss', 'js', 'img', 'build-inject'));
+gulp.task('build-nohtml', gulp.series('vendors', 'tocss', 'js', 'img'));
+gulp.task('build-purge', gulp.series('dist', 'clean', 'vendors', 'tocss', 'js', 'img', 'templates', 'build-inject'));
+gulp.task('build', gulp.series('dist', 'clean', 'vendors', 'tocss', 'js', 'img', 'templates', 'inject', 'build-inject'));
 
 //--- 0.First run: 'gulp start'
 //--- 1.For development run: 'gulp server' or 'yarn server'

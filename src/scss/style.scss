@@ -25,7 +25,7 @@ strong {
 }
 
 .logo>img {
-  min-width: 450px;
+  min-width: 200px;
   max-height: 80px;
 }
 
@@ -132,7 +132,11 @@ footer {
 
 @media (min-width: 640px) {}
 
-@media (min-width: 960px) {}
+@media (min-width: 960px) {
+  .logo>img {
+    min-width: 450px;
+  }  
+}
 
 @media (min-width: 1200px) {}
 
