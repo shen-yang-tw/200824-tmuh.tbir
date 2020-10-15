@@ -8,7 +8,8 @@
 		@return $color;
 	}
 }
-$color-primary:#e472a9 !default;
+
+$color-primary:#075766 !default;
 $color-primary-text:color-reduce(darken($color-primary, 20%)) !default;
 $color-primary-light:color-reduce(lighten($color-primary, 15%)) !default;
 $color-primary-lighter:color-reduce(lighten($color-primary, 25%)) !default;
@@ -17,7 +18,7 @@ $color-primary-darker:color-reduce(darken($color-primary, 25%)) !default;
 $color-primary-darkest:color-reduce(darken($color-primary, 30%)) !default;
 $color-primary-hover:color-reduce(darken($color-primary, 10%)) !default;
 $color-primary-black:change-color($color-primary, $lightness: 15%) !default;
-$color-secondary:#da4d6d !default;
+$color-secondary:#fa7832 !default;
 $color-secondary-text:color-reduce(darken($color-secondary, 20%)) !default;
 $color-secondary-light:color-reduce(lighten($color-secondary, 15%)) !default;
 $color-secondary-lighter:color-reduce(lighten($color-secondary, 25%)) !default;
@@ -26,7 +27,7 @@ $color-secondary-darker:color-reduce(darken($color-secondary, 25%)) !default;
 $color-secondary-darkest:color-reduce(darken($color-secondary, 30%)) !default;
 $color-secondary-hover:color-reduce(darken($color-secondary, 10%)) !default;
 $color-secondary-black:change-color($color-secondary, $lightness: 15%) !default;
-$color3:#ecc94b !default;
+$color3:#8a7215 !default;
 $color3-text:color-reduce(darken($color3, 20%)) !default;
 $color3-light:color-reduce(lighten($color3, 15%)) !default;
 $color3-lighter:color-reduce(lighten($color3, 25%)) !default;

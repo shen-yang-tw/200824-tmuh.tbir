@@ -66,16 +66,39 @@
   }
 }
 
-//
-@function color($color, $type) {
-  @if map-has-key($colors, $color) {
-    $curr_color: map-get($colors, $color);
+@function text-black-white($bg-color) {
+  $lightContrast: contrast($bg-color, white);
+  $darkContrast: contrast($bg-color, black);
 
-    @if map-has-key($curr_color, $type) {
-      @return map-get($curr_color, $type);
-    }
+  @if ($lightContrast > $darkContrast) {
+    @return white;
   }
-
-  @warn "Unknown `#{$color}` - `#{$type}` in $colors.";
-  @return null;
+  @else {
+    @return black;
+  }
 }
+
+@function color-reduce($color) {
+	@if lightness($color) == 0% {
+		@return lighten($color, 10%);
+	} @else if  lightness($color) == 100% {
+		@return lighten($color, -10%);
+	}
+	@else {
+		@return $color;
+	}
+}
+
+//
+// @function color($color, $type) {
+//   @if map-has-key($colors, $color) {
+//     $curr_color: map-get($colors, $color);
+
+//     @if map-has-key($curr_color, $type) {
+//       @return map-get($curr_color, $type);
+//     }
+//   }
+
+//   @warn "Unknown `#{$color}` - `#{$type}` in $colors.";
+//   @return null;
+// }
