@@ -9,34 +9,16 @@
 	<!-- Fix phone number style for MS Edge -->
 	<meta name="Designer&Developer" content="楊軒羽 Shen Yang | Graphic Web Designer & Front-end Developer | 前端設計工程師">
 	<title>臺灣乳房植入物登錄系統 Taiwan Breast Implant Registry</title>
-	<!-- uk:css -->
 	<link rel="stylesheet" href="css/uikit.min.css">
-	<!-- endinject -->
-	<!-- tw:css -->
 	<link rel="stylesheet" href="css/tailwind.css">
-	<!-- endinject -->
-	<!-- fa:css -->
 	<link rel="stylesheet" href="css/fontawesome.min.css">
-	<!-- endinject -->
-	<!-- main:css -->
 	<link rel="stylesheet" href="css/main.css">
-	<!-- endinject -->
-	<!-- colors:css -->
 	<link rel="stylesheet" href="css/colors.css">
-	<!-- endinject -->
-	<!-- style:css -->
 	<link rel="stylesheet" href="css/style.css">
-	<!-- endinject -->
-	<!-- style2:css -->
-	<!-- endinject -->
-	<!-- head:js -->
-	<script src="js/uikit-icons.min.js"></script>
 	<script src="js/uikit.min.js"></script>
-	<!-- endinject -->
-	<!-- inject:js -->
-	<script src="js/nav-menu.js" defer></script>
+	<script src="js/uikit-icons.min.js"></script>
 	<script src="js/script.js" defer></script>
-	<!-- endinject --></head>
+	<script src="js/nav-menu.js" defer></script></head>
 
 <body id="top" class="page">
 	<div class="uk-position-top-left"><a href="#content" id="gotocenter" title="跳到主要內容"
@@ -287,90 +269,26 @@
 	          <h3>臺灣乳房植入物登錄系統</h3>
 	          <div class="uk-grid-small uk-child-width-expand@m uk-grid" uk-grid>
 	            <div class="space-y-1 min_width-1/2!@m">
-	              <label class="w-full" for="#acc">帳 號</label>
+	              <label class="w-full" for="acc">帳 號</label>
 	              <input id="acc" class="uk-input" type="email" placeholder="">
 	              <p class="color_secondary-text uk-text-small">請輸入有效的電子郵件地址</p>
 	              <p class="color_secondary-text uk-text-small"></p>
 	            </div>
 	            <div class="space-y-1 min_width-1/2!@m">
-	              <label class="w-full" for="#pas">密 碼</label>
+	              <label class="w-full" for="pas">密 碼</label>
 	              <input id="pas" class="uk-input" type="password" placeholder="">
 	              <p class="color_secondary-text uk-text-small">驗證提示語</p>
 	            </div>
 	            <div class="m:mt-8 uk-width-1-1">
 	              <div class="uk-grid-small uk-child-width-expand uk-grid" uk-grid>
 	                <div class="space-y-1 min_width-1/2!@m">
-	                  <a href="" class="btn_primary w-full rounded-full uk-button uk-button-primary">登入</a>
+	                  <a href="" class="btn_primary w-full rounded-full uk-button uk-button-primary" >登入</a>
 	                </div>
 	              </div>
 	            </div>
 	          </div>
 	        </form>
-	        <!-- uk-modal-register -->
-	        <div id="register" class="uk-flex-top uk-modal" uk-modal>
-	          <div class="uk-modal-dialog uk-margin-auto-vertical">
-	            <button class="uk-modal-close-default" type="button" title="刪除" uk-close></button>
-	            <div class="uk-modal-header">
-	              <h2 class="uk-modal-title">醫師註冊</h2>
-	            </div>
-	            <div class="uk-modal-body">
-	              <form>
-	                <div class="margin_y_child-even-m margin_y_child-m@m uk-grid uk-grid-collapse uk-flex-right uk-flex-middle"
-	                  uk-grid>
-	                  <div class="uk-width-1-3@m">
-	                    <label class="font_size-10 font-bold uk-form-label" for="form_name">姓名</label>
-	                  </div>
-	                  <div class="uk-width-2-3@m">
-	                    <input id="form_name" class="uk-input" type="text" placeholder="">
-	                  </div>
-	                  <div class="uk-width-1-3@m"><label class="font_size-10 font-bold uk-form-label" for="form_dep">科別</label>
-	                  </div>
-	                  <div class="uk-width-2-3@m">
-	                    <div class="uk-margin uk-grid-small uk-child-width-expand@m" uk-margin uk-grid>
-	                      <div class="min_width1_2!@m">
-	                        <select id="form_dep" class="uk-select" onchange="showOption(this,5,'#other_dep')">
-	                          <option>-請選擇科別-</option>
-	                          <option>整形外科</option>
-	                          <option>美容外科</option>
-	                          <option>一般外科</option>
-	                          <option>乳房外科</option>
-	                          <option>其它</option>
-	                        </select>
-	                      </div>
-	                      <div id="other_dep" class="m-0 min_width1_2!@m" hidden>
-	                        <div class="uk-hidden@m" style="height: 10px;"></div>
-	                        <input class="uk-input" id="i_other" type="text" placeholder="請輸入科別">
-	                      </div>
-	                    </div>
-	                  </div>
-	                  <div class="uk-width-1-3@m">
-	                    <label class="font_size-10 font-bold uk-form-label" for="form_certificate">外科醫師證書字號</label>
-	                  </div>
-	                  <div class="uk-width-2-3@m">
-	                    <input id="form_certificate" class="uk-input" type="text" placeholder="">
-	                  </div>
-	                  <div class="uk-width-1-3@m">
-	                    <label class="font_size-10 font-bold uk-form-label" for="form_email">Email</label>
-	                  </div>
-	                  <div class="uk-width-2-3@m">
-	                    <input id="form_email" class="uk-input" type="text" placeholder="">
-	                  </div>
-	                  <div class="uk-width-1-3@m">
-	                    <label class="font_size-10 font-bold uk-form-label" for="form_phone">連絡電話</label>
-	                  </div>
-	                  <div class="uk-width-2-3@m">
-	                    <input id="form_phone" class="uk-input" type="text" placeholder="">
-	                  </div>
-	                </div>
-	              </form>
-	            </div>
-	            <div class="text-center uk-margin uk-modal-footer" uk-margin>
-	              <a href="#" class="btn_primary min_width-100 m-0 rounded-full uk-button uk-button-primary">註　　冊</a>
-	              <button class="min_width-100 rounded-full uk-button uk-button-default uk-modal-close" type="button">取　　消</button>
-	            </div>
-	          </div>
-	        </div>
-	        <!-- uk-modal-register -->      </div>
+	      </div>
 	      <!-- End #content -->
 	    </div>
 	    <!-- End uk-card -->

@@ -3123,7 +3123,7 @@ $logo-ratio:floor(128/65*100)/100;
 
 /*---------- Uikit 3 Style
 ---------------------------------------------------------------------------------- */
-address, dl, fieldset, figure, ol, p, pre, ul {
+address, dl, fieldset, figure, ol, p, pre, ul:not(.uk-tab) {
   margin: 10px 0;
 }
 #{$uk} * {text-transform: inherit !important;}

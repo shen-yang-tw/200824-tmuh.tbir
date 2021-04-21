@@ -254,139 +254,139 @@ a.color_secondary-black\!:hover, a.color_secondary-black\!:hover * {
   color: #150408 !important;
 }
 
-.color3, .btn_color3, .color3 > *, .btn_color3 > * {
-  color: #ecc94b;
+.color3, .color3 > * {
+  color: #8a7215;
 }
 
-a.color3:hover, a.btn_color3:hover, a.color3:hover *, a.btn_color3:hover * {
-  color: #e7bb1d;
+a.color3:hover, a.color3:hover * {
+  color: #5e4d0e;
 }
 
 .color3-text, .color3-text > * {
-  color: #bd9814;
+  color: #312908;
 }
 
 a.color3-text:hover, a.color3-text:hover * {
-  color: #8f730f;
+  color: #050401;
 }
 
-.color3-light, .btn_color3-light, .color3-light > *, .btn_color3-light > * {
-  color: #f3de90;
+.color3-light, .color3-light > * {
+  color: #cca91f;
 }
 
-a.color3-light:hover, a.btn_color3-light:hover, a.color3-light:hover *, a.btn_color3-light:hover * {
-  color: #eed062;
+a.color3-light:hover, a.color3-light:hover * {
+  color: #a08418;
 }
 
-.color3-lighter, .btn_color3-lighter, .color3-lighter > *, .btn_color3-lighter > * {
-  color: #f8ecbe;
+.color3-lighter, .color3-lighter > * {
+  color: #e1c03d;
 }
 
-a.color3-lighter:hover, a.btn_color3-lighter:hover, a.color3-lighter:hover *, a.btn_color3-lighter:hover * {
-  color: #f3de90;
+a.color3-lighter:hover, a.color3-lighter:hover * {
+  color: #cca91f;
 }
 
-.color3-dark, .btn_color3-dark, .color3-dark > *, .btn_color3-dark > * {
-  color: #d4ab16;
+.color3-dark, .color3-dark > * {
+  color: #483b0b;
 }
 
-a.color3-dark:hover, a.btn_color3-dark:hover, a.color3-dark:hover *, a.btn_color3-dark:hover * {
-  color: #a68612;
+a.color3-dark:hover, a.color3-dark:hover * {
+  color: #1b1704;
 }
 
-.color3-darker, .btn_color3-darker, .color3-darker > *, .btn_color3-darker > * {
-  color: #a68612;
+.color3-darker, .color3-darker > * {
+  color: #42370a;
 }
 
-a.color3-darker:hover, a.btn_color3-darker:hover, a.color3-darker:hover *, a.btn_color3-darker:hover * {
-  color: #78610d;
+a.color3-darker:hover, a.color3-darker:hover * {
+  color: black;
 }
 
-.color3-darkest, .btn_color3-darkest, .color3-darkest > *, .btn_color3-darkest > * {
-  color: #8f730f;
+.color3-darkest, .color3-darkest > * {
+  color: #42370a;
 }
 
-a.color3-darkest:hover, a.btn_color3-darkest:hover, a.color3-darkest:hover *, a.btn_color3-darkest:hover * {
-  color: #614e0a;
+a.color3-darkest:hover, a.color3-darkest:hover * {
+  color: black;
 }
 
 .color3-black, .color3-black > * {
-  color: #453807;
+  color: #42370a;
 }
 
 a.color3-black:hover, a.color3-black:hover * {
-  color: #171302;
+  color: #161203;
 }
 
 .color3\!, .color3\! > * {
-  color: #ecc94b !important;
+  color: #8a7215 !important;
 }
 
 a.color3\!:hover, a.color3\!:hover * {
-  color: #e7bb1d !important;
+  color: #5e4d0e !important;
 }
 
 .color3-text\!, .color3-text\! > * {
-  color: #bd9814 !important;
+  color: #312908 !important;
 }
 
 a.color3-text\!:hover, a.color3-text\!:hover * {
-  color: #8f730f !important;
+  color: #050401 !important;
 }
 
 .color3-light\!, .color3-light\! > * {
-  color: #f3de90 !important;
+  color: #cca91f !important;
 }
 
 a.color3-light\!:hover, a.color3-light\!:hover * {
-  color: #eed062 !important;
+  color: #a08418 !important;
 }
 
 .color3-lighter\!, .color3-lighter\! > * {
-  color: #f8ecbe !important;
+  color: #e1c03d !important;
 }
 
 a.color3-lighter\!:hover, a.color3-lighter\!:hover * {
-  color: #f3de90 !important;
+  color: #cca91f !important;
 }
 
 .color3-dark\!, .color3-dark\! > * {
-  color: #d4ab16 !important;
+  color: #483b0b !important;
 }
 
 a.color3-dark\!:hover, a.color3-dark\!:hover * {
-  color: #a68612 !important;
+  color: #1b1704 !important;
 }
 
 .color3-darker\!, .color3-darker\! > * {
-  color: #a68612 !important;
+  color: #42370a !important;
 }
 
 a.color3-darker\!:hover, a.color3-darker\!:hover * {
-  color: #78610d !important;
+  color: black !important;
 }
 
 .color3-darkest\!, .color3-darkest\! > * {
-  color: #8f730f !important;
+  color: #42370a !important;
 }
 
 a.color3-darkest\!:hover, a.color3-darkest\!:hover * {
-  color: #614e0a !important;
+  color: black !important;
 }
 
 .color3-black\!, .color3-black\! > * {
-  color: #453807 !important;
+  color: #42370a !important;
 }
 
 a.color3-black\!:hover, a.color3-black\!:hover * {
-  color: #171302 !important;
+  color: #161203 !important;
 }
 
-.color4, .btn_color4, .color4 > *, .btn_color4 > * {
+.color4, .color4 > * {
   color: #4fd1c5;
 }
 
-a.color4:hover, a.btn_color4:hover, a.color4:hover *, a.btn_color4:hover * {
+a.color4:hover, a.color4:hover * {
   color: #31bcaf;
 }
 
@@ -398,43 +398,43 @@ a.color4-text:hover, a.color4-text:hover * {
   color: #1c6b64;
 }
 
-.color4-light, .btn_color4-light, .color4-light > *, .btn_color4-light > * {
+.color4-light, .color4-light > * {
   color: #8ce1d9;
 }
 
-a.color4-light:hover, a.btn_color4-light:hover, a.color4-light:hover *, a.btn_color4-light:hover * {
+a.color4-light:hover, a.color4-light:hover * {
   color: #63d6cc;
 }
 
-.color4-lighter, .btn_color4-lighter, .color4-lighter > *, .btn_color4-lighter > * {
+.color4-lighter, .color4-lighter > * {
   color: #b4ebe6;
 }
 
-a.color4-lighter:hover, a.btn_color4-lighter:hover, a.color4-lighter:hover *, a.btn_color4-lighter:hover * {
+a.color4-lighter:hover, a.color4-lighter:hover * {
   color: #8ce1d9;
 }
 
-.color4-dark, .btn_color4-dark, .color4-dark > *, .btn_color4-dark > * {
+.color4-dark, .color4-dark > * {
   color: #2ca89c;
 }
 
-a.color4-dark:hover, a.btn_color4-dark:hover, a.color4-dark:hover *, a.btn_color4-dark:hover * {
+a.color4-dark:hover, a.color4-dark:hover * {
   color: #217f77;
 }
 
-.color4-darker, .btn_color4-darker, .color4-darker > *, .btn_color4-darker > * {
+.color4-darker, .color4-darker > * {
   color: #217f77;
 }
 
-a.color4-darker:hover, a.btn_color4-darker:hover, a.color4-darker:hover *, a.btn_color4-darker:hover * {
+a.color4-darker:hover, a.color4-darker:hover * {
   color: #175751;
 }
 
-.color4-darkest, .btn_color4-darkest, .color4-darkest > *, .btn_color4-darkest > * {
+.color4-darkest, .color4-darkest > * {
   color: #1c6b64;
 }
 
-a.color4-darkest:hover, a.btn_color4-darkest:hover, a.color4-darkest:hover *, a.btn_color4-darkest:hover * {
+a.color4-darkest:hover, a.color4-darkest:hover * {
   color: #11433e;
 }
 
@@ -508,6 +508,262 @@ a.color4-darkest\!:hover, a.color4-darkest\!:hover * {
 
 a.color4-black\!:hover, a.color4-black\!:hover * {
   color: #051413 !important;
+}
+
+.hover\:color_primary:hover, .hover\:color_primary:hover * {
+  color: #e472a9;
+}
+
+.hover\:color_primary-text:hover, .hover\:color_primary-text:hover * {
+  color: #c92775;
+}
+
+.hover\:color_primary-light:hover, .hover\:color_primary-light:hover * {
+  color: #f0b2d0;
+}
+
+.hover\:color_primary-lighter:hover, .hover\:color_primary-lighter:hover * {
+  color: #f8ddea;
+}
+
+.hover\:color_primary-dark:hover, .hover\:color_primary-dark:hover * {
+  color: #d83282;
+}
+
+.hover\:color_primary-darker:hover, .hover\:color_primary-darker:hover * {
+  color: #b42269;
+}
+
+.hover\:color_primary-darkest:hover, .hover\:color_primary-darkest:hover * {
+  color: #9f1e5c;
+}
+
+.hover\:color_primary-black:hover, .hover\:color_primary-black:hover * {
+  color: #400c25;
+}
+
+.hover\:color_primary\!:hover, .hover\:color_primary\!:hover * {
+  color: #e472a9 !important;
+}
+
+.hover\:color_primary-text\!:hover, .hover\:color_primary-text\!:hover * {
+  color: #c92775 !important;
+}
+
+.hover\:color_primary-light\!:hover, .hover\:color_primary-light\!:hover * {
+  color: #f0b2d0 !important;
+}
+
+.hover\:color_primary-lighter\!:hover, .hover\:color_primary-lighter\!:hover * {
+  color: #f8ddea !important;
+}
+
+.hover\:color_primary-dark\!:hover, .hover\:color_primary-dark\!:hover * {
+  color: #d83282 !important;
+}
+
+.hover\:color_primary-darker\!:hover, .hover\:color_primary-darker\!:hover * {
+  color: #b42269 !important;
+}
+
+.hover\:color_primary-darkest\!:hover, .hover\:color_primary-darkest\!:hover * {
+  color: #9f1e5c !important;
+}
+
+.hover\:color_primary-black\!:hover, .hover\:color_primary-black\!:hover * {
+  color: #400c25 !important;
+}
+
+.hover\:color_secondary:hover, .hover\:color_secondary:hover * {
+  color: #da4d6d;
+}
+
+.hover\:color_secondary-text:hover, .hover\:color_secondary-text:hover * {
+  color: #a0213e;
+}
+
+.hover\:color_secondary-light:hover, .hover\:color_secondary-light:hover * {
+  color: #e78ca1;
+}
+
+.hover\:color_secondary-lighter:hover, .hover\:color_secondary-lighter:hover * {
+  color: #f0b7c4;
+}
+
+.hover\:color_secondary-dark:hover, .hover\:color_secondary-dark:hover * {
+  color: #b52646;
+}
+
+.hover\:color_secondary-darker:hover, .hover\:color_secondary-darker:hover * {
+  color: #8b1d36;
+}
+
+.hover\:color_secondary-darkest:hover, .hover\:color_secondary-darkest:hover * {
+  color: #76182e;
+}
+
+.hover\:color_secondary-black:hover, .hover\:color_secondary-black:hover * {
+  color: #3f0d19;
+}
+
+.hover\:color_secondary\!:hover, .hover\:color_secondary\!:hover * {
+  color: #da4d6d !important;
+}
+
+.hover\:color_secondary-text\!:hover, .hover\:color_secondary-text\!:hover * {
+  color: #a0213e !important;
+}
+
+.hover\:color_secondary-light\!:hover, .hover\:color_secondary-light\!:hover * {
+  color: #e78ca1 !important;
+}
+
+.hover\:color_secondary-lighter\!:hover, .hover\:color_secondary-lighter\!:hover * {
+  color: #f0b7c4 !important;
+}
+
+.hover\:color_secondary-dark\!:hover, .hover\:color_secondary-dark\!:hover * {
+  color: #b52646 !important;
+}
+
+.hover\:color_secondary-darker\!:hover, .hover\:color_secondary-darker\!:hover * {
+  color: #8b1d36 !important;
+}
+
+.hover\:color_secondary-darkest\!:hover, .hover\:color_secondary-darkest\!:hover * {
+  color: #76182e !important;
+}
+
+.hover\:color_secondary-black\!:hover, .hover\:color_secondary-black\!:hover * {
+  color: #3f0d19 !important;
+}
+
+.hover\:color3:hover, .hover\:color3:hover * {
+  color: #8a7215;
+}
+
+.hover\:color3-text:hover, .hover\:color3-text:hover * {
+  color: #312908;
+}
+
+.hover\:color3-light:hover, .hover\:color3-light:hover * {
+  color: #cca91f;
+}
+
+.hover\:color3-lighter:hover, .hover\:color3-lighter:hover * {
+  color: #e1c03d;
+}
+
+.hover\:color3-dark:hover, .hover\:color3-dark:hover * {
+  color: #483b0b;
+}
+
+.hover\:color3-darker:hover, .hover\:color3-darker:hover * {
+  color: #1b1704;
+}
+
+.hover\:color3-darkest:hover, .hover\:color3-darkest:hover * {
+  color: #050401;
+}
+
+.hover\:color3-black:hover, .hover\:color3-black:hover * {
+  color: #42370a;
+}
+
+.hover\:color3\!:hover, .hover\:color3\!:hover * {
+  color: #8a7215 !important;
+}
+
+.hover\:color3-text\!:hover, .hover\:color3-text\!:hover * {
+  color: #312908 !important;
+}
+
+.hover\:color3-light\!:hover, .hover\:color3-light\!:hover * {
+  color: #cca91f !important;
+}
+
+.hover\:color3-lighter\!:hover, .hover\:color3-lighter\!:hover * {
+  color: #e1c03d !important;
+}
+
+.hover\:color3-dark\!:hover, .hover\:color3-dark\!:hover * {
+  color: #483b0b !important;
+}
+
+.hover\:color3-darker\!:hover, .hover\:color3-darker\!:hover * {
+  color: #1b1704 !important;
+}
+
+.hover\:color3-darkest\!:hover, .hover\:color3-darkest\!:hover * {
+  color: #050401 !important;
+}
+
+.hover\:color3-black\!:hover, .hover\:color3-black\!:hover * {
+  color: #42370a !important;
+}
+
+.hover\:color4:hover, .hover\:color4:hover * {
+  color: #4fd1c5;
+}
+
+.hover\:color4-text:hover, .hover\:color4-text:hover * {
+  color: #279389;
+}
+
+.hover\:color4-light:hover, .hover\:color4-light:hover * {
+  color: #8ce1d9;
+}
+
+.hover\:color4-lighter:hover, .hover\:color4-lighter:hover * {
+  color: #b4ebe6;
+}
+
+.hover\:color4-dark:hover, .hover\:color4-dark:hover * {
+  color: #2ca89c;
+}
+
+.hover\:color4-darker:hover, .hover\:color4-darker:hover * {
+  color: #217f77;
+}
+
+.hover\:color4-darkest:hover, .hover\:color4-darkest:hover * {
+  color: #1c6b64;
+}
+
+.hover\:color4-black:hover, .hover\:color4-black:hover * {
+  color: #103d39;
+}
+
+.hover\:color4\!:hover, .hover\:color4\!:hover * {
+  color: #4fd1c5 !important;
+}
+
+.hover\:color4-text\!:hover, .hover\:color4-text\!:hover * {
+  color: #279389 !important;
+}
+
+.hover\:color4-light\!:hover, .hover\:color4-light\!:hover * {
+  color: #8ce1d9 !important;
+}
+
+.hover\:color4-lighter\!:hover, .hover\:color4-lighter\!:hover * {
+  color: #b4ebe6 !important;
+}
+
+.hover\:color4-dark\!:hover, .hover\:color4-dark\!:hover * {
+  color: #2ca89c !important;
+}
+
+.hover\:color4-darker\!:hover, .hover\:color4-darker\!:hover * {
+  color: #217f77 !important;
+}
+
+.hover\:color4-darkest\!:hover, .hover\:color4-darkest\!:hover * {
+  color: #1c6b64 !important;
+}
+
+.hover\:color4-black\!:hover, .hover\:color4-black\!:hover * {
+  color: #103d39 !important;
 }
 
 .color_primary-fill, .color_primary-fill > * {
@@ -735,115 +991,115 @@ a.color_secondary-black-fill\!:hover, a.color_secondary-black-fill\!:hover * {
 }
 
 .color3-fill, .color3-fill > * {
-  fill: #ecc94b;
+  fill: #8a7215;
 }
 
 a.color3-fill:hover, a.color3-fill:hover * {
-  fill: #e7bb1d;
+  fill: #5e4d0e;
 }
 
 .color3-light-fill, .color3-light-fill > * {
-  fill: #f3de90;
+  fill: #cca91f;
 }
 
 a.color3-light-fill:hover, a.color3-light-fill:hover * {
-  fill: #eed062;
+  fill: #a08418;
 }
 
 .color3-lighter-fill, .color3-lighter-fill > * {
-  fill: #f8ecbe;
+  fill: #e1c03d;
 }
 
 a.color3-lighter-fill:hover, a.color3-lighter-fill:hover * {
-  fill: #f3de90;
+  fill: #cca91f;
 }
 
 .color3-dark-fill, .color3-dark-fill > * {
-  fill: #d4ab16;
+  fill: #483b0b;
 }
 
 a.color3-dark-fill:hover, a.color3-dark-fill:hover * {
-  fill: #a68612;
+  fill: #1b1704;
 }
 
 .color3-darker-fill, .color3-darker-fill > * {
-  fill: #a68612;
+  fill: #1b1704;
 }
 
 a.color3-darker-fill:hover, a.color3-darker-fill:hover * {
-  fill: #78610d;
+  fill: black;
 }
 
 .color3-darkest-fill, .color3-darkest-fill > * {
-  fill: #8f730f;
+  fill: #050401;
 }
 
 a.color3-darkest-fill:hover, a.color3-darkest-fill:hover * {
-  fill: #614e0a;
+  fill: black;
 }
 
 .color3-black-fill, .color3-black-fill > * {
-  fill: #453807;
+  fill: #42370a;
 }
 
 a.color3-black-fill:hover, a.color3-black-fill:hover * {
-  fill: #171302;
+  fill: #161203;
 }
 
 .color3-fill\!, .color3-fill\! > * {
-  fill: #ecc94b !important;
+  fill: #8a7215 !important;
 }
 
 a.color3-fill\!:hover, a.color3-fill\!:hover * {
-  fill: #e7bb1d !important;
+  fill: #5e4d0e !important;
 }
 
 .color3-light-fill\!, .color3-light-fill\! > * {
-  fill: #f3de90 !important;
+  fill: #cca91f !important;
 }
 
 a.color3-light-fill\!:hover, a.color3-light-fill\!:hover * {
-  fill: #eed062 !important;
+  fill: #a08418 !important;
 }
 
 .color3-lighter-fill\!, .color3-lighter-fill\! > * {
-  fill: #f8ecbe !important;
+  fill: #e1c03d !important;
 }
 
 a.color3-lighter-fill\!:hover, a.color3-lighter-fill\!:hover * {
-  fill: #f3de90 !important;
+  fill: #cca91f !important;
 }
 
 .color3-dark-fill\!, .color3-dark-fill\! > * {
-  fill: #d4ab16 !important;
+  fill: #483b0b !important;
 }
 
 a.color3-dark-fill\!:hover, a.color3-dark-fill\!:hover * {
-  fill: #a68612 !important;
+  fill: #1b1704 !important;
 }
 
 .color3-darker-fill\!, .color3-darker-fill\! > * {
-  fill: #a68612 !important;
+  fill: #1b1704 !important;
 }
 
 a.color3-darker-fill\!:hover, a.color3-darker-fill\!:hover * {
-  fill: #78610d !important;
+  fill: black !important;
 }
 
 .color3-darkest-fill\!, .color3-darkest-fill\! > * {
-  fill: #8f730f !important;
+  fill: #050401 !important;
 }
 
 a.color3-darkest-fill\!:hover, a.color3-darkest-fill\!:hover * {
-  fill: #614e0a !important;
+  fill: black !important;
 }
 
 .color3-black-fill\!, .color3-black-fill\! > * {
-  fill: #453807 !important;
+  fill: #42370a !important;
 }
 
 a.color3-black-fill\!:hover, a.color3-black-fill\!:hover * {
-  fill: #171302 !important;
+  fill: #161203 !important;
 }
 
 .color4-fill, .color4-fill > * {
@@ -958,12 +1214,12 @@ a.color4-black-fill\!:hover, a.color4-black-fill\!:hover * {
   fill: #051413 !important;
 }
 
-.bg_primary, .btn_primary, a.bg_primary, a.btn_primary, button.bg_primary, button.btn_primary {
+.bg_primary, .btn_primary, a.bg_primary, button.bg_primary {
   background-color: #e472a9;
 }
 
-.bg_primary, .btn_primary, .bg_primary > *, .btn_primary > *, a.bg_primary, a.btn_primary, a.bg_primary > *, a.btn_primary > *, button.bg_primary, button.btn_primary, button.bg_primary > *, button.btn_primary > * {
-  color: #5e1237;
+.bg_primary, .btn_primary, .bg_primary > *, .btn_primary > *, a.bg_primary, a.bg_primary > *, button.bg_primary, button.bg_primary > * {
+  color: black;
 }
 
 a.bg_primary:hover, a.btn_primary:hover, button.bg_primary:hover, button.btn_primary:hover {
@@ -972,15 +1228,15 @@ a.bg_primary:hover, a.btn_primary:hover, button.bg_primary:hover, button.btn_pri
 }
 
 a.bg_primary:hover, a.btn_primary:hover, a.bg_primary:hover > *, a.btn_primary:hover > *, button.bg_primary:hover, button.btn_primary:hover, button.bg_primary:hover > *, button.btn_primary:hover > *, .bg_primary > a:hover, .btn_primary > a:hover, .bg_primary > a:hover > *, .btn_primary > a:hover > * {
-  color: #330a1e !important;
+  color: black;
 }
 
-.bg_primary-light, .btn_primary-light, a.bg_primary-light, a.btn_primary-light, button.bg_primary-light, button.btn_primary-light {
+.bg_primary-light, .btn_primary-light, a.bg_primary-light, button.bg_primary-light {
   background-color: #f0b2d0;
 }
 
-.bg_primary-light, .btn_primary-light, .bg_primary-light > *, .btn_primary-light > *, a.bg_primary-light, a.btn_primary-light, a.bg_primary-light > *, a.btn_primary-light > *, button.bg_primary-light, button.btn_primary-light, button.bg_primary-light > *, button.btn_primary-light > * {
-  color: #961d57;
+.bg_primary-light, .btn_primary-light, .bg_primary-light > *, .btn_primary-light > *, a.bg_primary-light, a.bg_primary-light > *, button.bg_primary-light, button.bg_primary-light > * {
+  color: black;
 }
 
 a.bg_primary-light:hover, a.btn_primary-light:hover, button.bg_primary-light:hover, button.btn_primary-light:hover {
@@ -989,15 +1245,15 @@ a.bg_primary-light:hover, a.btn_primary-light:hover, button.bg_primary-light:hov
 }
 
 a.bg_primary-light:hover, a.btn_primary-light:hover, a.bg_primary-light:hover > *, a.btn_primary-light:hover > *, button.bg_primary-light:hover, button.btn_primary-light:hover, button.bg_primary-light:hover > *, button.btn_primary-light:hover > *, .bg_primary-light > a:hover, .btn_primary-light > a:hover, .bg_primary-light > a:hover > *, .btn_primary-light > a:hover > * {
-  color: #6b143e !important;
+  color: black;
 }
 
-.bg_primary-lighter, .btn_primary-lighter, a.bg_primary-lighter, a.btn_primary-lighter, button.bg_primary-lighter, button.btn_primary-lighter {
+.bg_primary-lighter, .btn_primary-lighter, a.bg_primary-lighter, button.bg_primary-lighter {
   background-color: #f8ddea;
 }
 
-.bg_primary-lighter, .btn_primary-lighter, .bg_primary-lighter > *, .btn_primary-lighter > *, a.bg_primary-lighter, a.btn_primary-lighter, a.bg_primary-lighter > *, a.btn_primary-lighter > *, button.bg_primary-lighter, button.btn_primary-lighter, button.bg_primary-lighter > *, button.btn_primary-lighter > * {
-  color: #bc246e;
+.bg_primary-lighter, .btn_primary-lighter, .bg_primary-lighter > *, .btn_primary-lighter > *, a.bg_primary-lighter, a.bg_primary-lighter > *, button.bg_primary-lighter, button.bg_primary-lighter > * {
+  color: black;
 }
 
 a.bg_primary-lighter:hover, a.btn_primary-lighter:hover, button.bg_primary-lighter:hover, button.btn_primary-lighter:hover {
@@ -1006,15 +1262,15 @@ a.bg_primary-lighter:hover, a.btn_primary-lighter:hover, button.bg_primary-light
 }
 
 a.bg_primary-lighter:hover, a.btn_primary-lighter:hover, a.bg_primary-lighter:hover > *, a.btn_primary-lighter:hover > *, button.bg_primary-lighter:hover, button.btn_primary-lighter:hover, button.bg_primary-lighter:hover > *, button.btn_primary-lighter:hover > *, .bg_primary-lighter > a:hover, .btn_primary-lighter > a:hover, .bg_primary-lighter > a:hover > *, .btn_primary-lighter > a:hover > * {
-  color: #921c55 !important;
+  color: black;
 }
 
-.bg_primary-dark, .btn_primary-dark, a.bg_primary-dark, a.btn_primary-dark, button.bg_primary-dark, button.btn_primary-dark {
+.bg_primary-dark, .btn_primary-dark, a.bg_primary-dark, button.bg_primary-dark {
   background-color: #d83282;
 }
 
-.bg_primary-dark, .btn_primary-dark, .bg_primary-dark > *, .btn_primary-dark > *, a.bg_primary-dark, a.btn_primary-dark, a.bg_primary-dark > *, a.btn_primary-dark > *, button.bg_primary-dark, button.btn_primary-dark, button.bg_primary-dark > *, button.btn_primary-dark > * {
-  color: #0d0d0d;
+.bg_primary-dark, .btn_primary-dark, .bg_primary-dark > *, .btn_primary-dark > *, a.bg_primary-dark, a.bg_primary-dark > *, button.bg_primary-dark, button.bg_primary-dark > * {
+  color: black;
 }
 
 a.bg_primary-dark:hover, a.btn_primary-dark:hover, button.bg_primary-dark:hover, button.btn_primary-dark:hover {
@@ -1023,15 +1279,15 @@ a.bg_primary-dark:hover, a.btn_primary-dark:hover, button.bg_primary-dark:hover,
 }
 
 a.bg_primary-dark:hover, a.btn_primary-dark:hover, a.bg_primary-dark:hover > *, a.btn_primary-dark:hover > *, button.bg_primary-dark:hover, button.btn_primary-dark:hover, button.bg_primary-dark:hover > *, button.btn_primary-dark:hover > *, .bg_primary-dark > a:hover, .btn_primary-dark > a:hover, .bg_primary-dark > a:hover > *, .btn_primary-dark > a:hover > * {
-  color: black !important;
+  color: black;
 }
 
-.bg_primary-darker, .btn_primary-darker, a.bg_primary-darker, a.btn_primary-darker, button.bg_primary-darker, button.btn_primary-darker {
+.bg_primary-darker, .btn_primary-darker, a.bg_primary-darker, button.bg_primary-darker {
   background-color: #b42269;
 }
 
-.bg_primary-darker, .btn_primary-darker, .bg_primary-darker > *, .btn_primary-darker > *, a.bg_primary-darker, a.btn_primary-darker, a.bg_primary-darker > *, a.btn_primary-darker > *, button.bg_primary-darker, button.btn_primary-darker, button.bg_primary-darker > *, button.btn_primary-darker > * {
-  color: #f7d4e5;
+.bg_primary-darker, .btn_primary-darker, .bg_primary-darker > *, .btn_primary-darker > *, a.bg_primary-darker, a.bg_primary-darker > *, button.bg_primary-darker, button.bg_primary-darker > * {
+  color: white;
 }
 
 a.bg_primary-darker:hover, a.btn_primary-darker:hover, button.bg_primary-darker:hover, button.btn_primary-darker:hover {
@@ -1043,12 +1299,12 @@ a.bg_primary-darker:hover, a.btn_primary-darker:hover, a.bg_primary-darker:hover
   color: white;
 }
 
-.bg_primary-darkest, .btn_primary-darkest, a.bg_primary-darkest, a.btn_primary-darkest, button.bg_primary-darkest, button.btn_primary-darkest {
+.bg_primary-darkest, .btn_primary-darkest, a.bg_primary-darkest, button.bg_primary-darkest {
   background-color: #9f1e5c;
 }
 
-.bg_primary-darkest, .btn_primary-darkest, .bg_primary-darkest > *, .btn_primary-darkest > *, a.bg_primary-darkest, a.btn_primary-darkest, a.bg_primary-darkest > *, a.btn_primary-darkest > *, button.bg_primary-darkest, button.btn_primary-darkest, button.bg_primary-darkest > *, button.btn_primary-darkest > * {
-  color: #f2f2f2;
+.bg_primary-darkest, .btn_primary-darkest, .bg_primary-darkest > *, .btn_primary-darkest > *, a.bg_primary-darkest, a.bg_primary-darkest > *, button.bg_primary-darkest, button.bg_primary-darkest > * {
+  color: white;
 }
 
 a.bg_primary-darkest:hover, a.btn_primary-darkest:hover, button.bg_primary-darkest:hover, button.btn_primary-darkest:hover {
@@ -1060,12 +1316,12 @@ a.bg_primary-darkest:hover, a.btn_primary-darkest:hover, a.bg_primary-darkest:ho
   color: white;
 }
 
-.bg_secondary, .btn_secondary, a.bg_secondary, a.btn_secondary, button.bg_secondary, button.btn_secondary {
+.bg_secondary, .btn_secondary, a.bg_secondary, button.bg_secondary {
   background-color: #da4d6d;
 }
 
-.bg_secondary, .btn_secondary, .bg_secondary > *, .btn_secondary > *, a.bg_secondary, a.btn_secondary, a.bg_secondary > *, a.btn_secondary > *, button.bg_secondary, button.btn_secondary, button.bg_secondary > *, button.btn_secondary > * {
-  color: #2e0a12;
+.bg_secondary, .btn_secondary, .bg_secondary > *, .btn_secondary > *, a.bg_secondary, a.bg_secondary > *, button.bg_secondary, button.bg_secondary > * {
+  color: black;
 }
 
 a.bg_secondary:hover, a.btn_secondary:hover, button.bg_secondary:hover, button.btn_secondary:hover {
@@ -1074,15 +1330,15 @@ a.bg_secondary:hover, a.btn_secondary:hover, button.bg_secondary:hover, button.b
 }
 
 a.bg_secondary:hover, a.btn_secondary:hover, a.bg_secondary:hover > *, a.btn_secondary:hover > *, button.bg_secondary:hover, button.btn_secondary:hover, button.bg_secondary:hover > *, button.btn_secondary:hover > *, .bg_secondary > a:hover, .btn_secondary > a:hover, .bg_secondary > a:hover > *, .btn_secondary > a:hover > * {
-  color: #040102 !important;
+  color: black;
 }
 
-.bg_secondary-light, .btn_secondary-light, a.bg_secondary-light, a.btn_secondary-light, button.bg_secondary-light, button.btn_secondary-light {
+.bg_secondary-light, .btn_secondary-light, a.bg_secondary-light, button.bg_secondary-light {
   background-color: #e78ca1;
 }
 
-.bg_secondary-light, .btn_secondary-light, .bg_secondary-light > *, .btn_secondary-light > *, a.bg_secondary-light, a.btn_secondary-light, a.bg_secondary-light > *, a.btn_secondary-light > *, button.bg_secondary-light, button.btn_secondary-light, button.bg_secondary-light > *, button.btn_secondary-light > * {
-  color: #72182c;
+.bg_secondary-light, .btn_secondary-light, .bg_secondary-light > *, .btn_secondary-light > *, a.bg_secondary-light, a.bg_secondary-light > *, button.bg_secondary-light, button.bg_secondary-light > * {
+  color: black;
 }
 
 a.bg_secondary-light:hover, a.btn_secondary-light:hover, button.bg_secondary-light:hover, button.btn_secondary-light:hover {
@@ -1091,15 +1347,15 @@ a.bg_secondary-light:hover, a.btn_secondary-light:hover, button.bg_secondary-lig
 }
 
 a.bg_secondary-light:hover, a.btn_secondary-light:hover, a.bg_secondary-light:hover > *, a.btn_secondary-light:hover > *, button.bg_secondary-light:hover, button.btn_secondary-light:hover, button.bg_secondary-light:hover > *, button.btn_secondary-light:hover > *, .bg_secondary-light > a:hover, .btn_secondary-light > a:hover, .bg_secondary-light > a:hover > *, .btn_secondary-light > a:hover > * {
-  color: #480f1c !important;
+  color: black;
 }
 
-.bg_secondary-lighter, .btn_secondary-lighter, a.bg_secondary-lighter, a.btn_secondary-lighter, button.bg_secondary-lighter, button.btn_secondary-lighter {
+.bg_secondary-lighter, .btn_secondary-lighter, a.bg_secondary-lighter, button.bg_secondary-lighter {
   background-color: #f0b7c4;
 }
 
-.bg_secondary-lighter, .btn_secondary-lighter, .bg_secondary-lighter > *, .btn_secondary-lighter > *, a.bg_secondary-lighter, a.btn_secondary-lighter, a.bg_secondary-lighter > *, a.btn_secondary-lighter > *, button.bg_secondary-lighter, button.btn_secondary-lighter, button.bg_secondary-lighter > *, button.btn_secondary-lighter > * {
-  color: #9c203d;
+.bg_secondary-lighter, .btn_secondary-lighter, .bg_secondary-lighter > *, .btn_secondary-lighter > *, a.bg_secondary-lighter, a.bg_secondary-lighter > *, button.bg_secondary-lighter, button.bg_secondary-lighter > * {
+  color: black;
 }
 
 a.bg_secondary-lighter:hover, a.btn_secondary-lighter:hover, button.bg_secondary-lighter:hover, button.btn_secondary-lighter:hover {
@@ -1108,15 +1364,15 @@ a.bg_secondary-lighter:hover, a.btn_secondary-lighter:hover, button.bg_secondary
 }
 
 a.bg_secondary-lighter:hover, a.btn_secondary-lighter:hover, a.bg_secondary-lighter:hover > *, a.btn_secondary-lighter:hover > *, button.bg_secondary-lighter:hover, button.btn_secondary-lighter:hover, button.bg_secondary-lighter:hover > *, button.btn_secondary-lighter:hover > *, .bg_secondary-lighter > a:hover, .btn_secondary-lighter > a:hover, .bg_secondary-lighter > a:hover > *, .btn_secondary-lighter > a:hover > * {
-  color: #72182c !important;
+  color: black;
 }
 
-.bg_secondary-dark, .btn_secondary-dark, a.bg_secondary-dark, a.btn_secondary-dark, button.bg_secondary-dark, button.btn_secondary-dark {
+.bg_secondary-dark, .btn_secondary-dark, a.bg_secondary-dark, button.bg_secondary-dark {
   background-color: #b52646;
 }
 
-.bg_secondary-dark, .btn_secondary-dark, .bg_secondary-dark > *, .btn_secondary-dark > *, a.bg_secondary-dark, a.btn_secondary-dark, a.bg_secondary-dark > *, a.btn_secondary-dark > *, button.bg_secondary-dark, button.btn_secondary-dark, button.bg_secondary-dark > *, button.btn_secondary-dark > * {
-  color: #f2f2f2;
+.bg_secondary-dark, .btn_secondary-dark, .bg_secondary-dark > *, .btn_secondary-dark > *, a.bg_secondary-dark, a.bg_secondary-dark > *, button.bg_secondary-dark, button.bg_secondary-dark > * {
+  color: white;
 }
 
 a.bg_secondary-dark:hover, a.btn_secondary-dark:hover, button.bg_secondary-dark:hover, button.btn_secondary-dark:hover {
@@ -1128,12 +1384,12 @@ a.bg_secondary-dark:hover, a.btn_secondary-dark:hover, a.bg_secondary-dark:hover
   color: white;
 }
 
-.bg_secondary-darker, .btn_secondary-darker, a.bg_secondary-darker, a.btn_secondary-darker, button.bg_secondary-darker, button.btn_secondary-darker {
+.bg_secondary-darker, .btn_secondary-darker, a.bg_secondary-darker, button.bg_secondary-darker {
   background-color: #8b1d36;
 }
 
-.bg_secondary-darker, .btn_secondary-darker, .bg_secondary-darker > *, .btn_secondary-darker > *, a.bg_secondary-darker, a.btn_secondary-darker, a.bg_secondary-darker > *, a.btn_secondary-darker > *, button.bg_secondary-darker, button.btn_secondary-darker, button.bg_secondary-darker > *, button.btn_secondary-darker > * {
-  color: #f2f2f2;
+.bg_secondary-darker, .btn_secondary-darker, .bg_secondary-darker > *, .btn_secondary-darker > *, a.bg_secondary-darker, a.bg_secondary-darker > *, button.bg_secondary-darker, button.bg_secondary-darker > * {
+  color: white;
 }
 
 a.bg_secondary-darker:hover, a.btn_secondary-darker:hover, button.bg_secondary-darker:hover, button.btn_secondary-darker:hover {
@@ -1145,12 +1401,12 @@ a.bg_secondary-darker:hover, a.btn_secondary-darker:hover, a.bg_secondary-darker
   color: white;
 }
 
-.bg_secondary-darkest, .btn_secondary-darkest, a.bg_secondary-darkest, a.btn_secondary-darkest, button.bg_secondary-darkest, button.btn_secondary-darkest {
+.bg_secondary-darkest, .btn_secondary-darkest, a.bg_secondary-darkest, button.bg_secondary-darkest {
   background-color: #76182e;
 }
 
-.bg_secondary-darkest, .btn_secondary-darkest, .bg_secondary-darkest > *, .btn_secondary-darkest > *, a.bg_secondary-darkest, a.btn_secondary-darkest, a.bg_secondary-darkest > *, a.btn_secondary-darkest > *, button.bg_secondary-darkest, button.btn_secondary-darkest, button.bg_secondary-darkest > *, button.btn_secondary-darkest > * {
-  color: #f2f2f2;
+.bg_secondary-darkest, .btn_secondary-darkest, .bg_secondary-darkest > *, .btn_secondary-darkest > *, a.bg_secondary-darkest, a.bg_secondary-darkest > *, button.bg_secondary-darkest, button.bg_secondary-darkest > * {
+  color: white;
 }
 
 a.bg_secondary-darkest:hover, a.btn_secondary-darkest:hover, button.bg_secondary-darkest:hover, button.btn_secondary-darkest:hover {
@@ -1162,207 +1418,207 @@ a.bg_secondary-darkest:hover, a.btn_secondary-darkest:hover, a.bg_secondary-dark
   color: white;
 }
 
-.color3, .btn_color3, a.color3, a.btn_color3, button.color3, button.btn_color3 {
-  background-color: #ecc94b;
+.bg_color3, .btn_color3, a.bg_color3, button.bg_color3 {
+  background-color: #8a7215;
 }
 
-.color3, .btn_color3, .color3 > *, .btn_color3 > *, a.color3, a.btn_color3, a.color3 > *, a.btn_color3 > *, button.color3, button.btn_color3, button.color3 > *, button.btn_color3 > * {
-  color: #65520b;
+.bg_color3, .btn_color3, .bg_color3 > *, .btn_color3 > *, a.bg_color3, a.bg_color3 > *, button.bg_color3, button.bg_color3 > * {
+  color: white;
 }
 
-a.color3:hover, a.btn_color3:hover, button.color3:hover, button.btn_color3:hover {
-  background-color: #e7bb1d;
+a.bg_color3:hover, a.btn_color3:hover, button.bg_color3:hover, button.btn_color3:hover {
+  background-color: #5e4d0e;
   text-decoration: none;
 }
 
-a.color3:hover, a.btn_color3:hover, a.color3:hover > *, a.btn_color3:hover > *, button.color3:hover, button.btn_color3:hover, button.color3:hover > *, button.btn_color3:hover > *, .color3 > a:hover, .btn_color3 > a:hover, .color3 > a:hover > *, .btn_color3 > a:hover > * {
-  color: #372d06 !important;
+a.bg_color3:hover, a.btn_color3:hover, a.bg_color3:hover > *, a.btn_color3:hover > *, button.bg_color3:hover, button.btn_color3:hover, button.bg_color3:hover > *, button.btn_color3:hover > *, .bg_color3 > a:hover, .btn_color3 > a:hover, .bg_color3 > a:hover > *, .btn_color3 > a:hover > * {
+  color: white;
 }
 
-.color3-light, .btn_color3-light, a.color3-light, a.btn_color3-light, button.color3-light, button.btn_color3-light {
-  background-color: #f3de90;
+.bg_color3-light, .btn_color3-light, a.bg_color3-light, button.bg_color3-light {
+  background-color: #cca91f;
 }
 
-.color3-light, .btn_color3-light, .color3-light > *, .btn_color3-light > *, a.color3-light, a.btn_color3-light, a.color3-light > *, a.btn_color3-light > *, button.color3-light, button.btn_color3-light, button.color3-light > *, button.btn_color3-light > * {
-  color: #735d0c;
+.bg_color3-light, .btn_color3-light, .bg_color3-light > *, .btn_color3-light > *, a.bg_color3-light, a.bg_color3-light > *, button.bg_color3-light, button.bg_color3-light > * {
+  color: black;
 }
 
-a.color3-light:hover, a.btn_color3-light:hover, button.color3-light:hover, button.btn_color3-light:hover {
-  background-color: #eed062;
+a.bg_color3-light:hover, a.btn_color3-light:hover, button.bg_color3-light:hover, button.btn_color3-light:hover {
+  background-color: #a08418;
   text-decoration: none;
 }
 
-a.color3-light:hover, a.btn_color3-light:hover, a.color3-light:hover > *, a.btn_color3-light:hover > *, button.color3-light:hover, button.btn_color3-light:hover, button.color3-light:hover > *, button.btn_color3-light:hover > *, .color3-light > a:hover, .btn_color3-light > a:hover, .color3-light > a:hover > *, .btn_color3-light > a:hover > * {
-  color: #453807 !important;
+a.bg_color3-light:hover, a.btn_color3-light:hover, a.bg_color3-light:hover > *, a.btn_color3-light:hover > *, button.bg_color3-light:hover, button.btn_color3-light:hover, button.bg_color3-light:hover > *, button.btn_color3-light:hover > *, .bg_color3-light > a:hover, .btn_color3-light > a:hover, .bg_color3-light > a:hover > *, .btn_color3-light > a:hover > * {
+  color: black;
 }
 
-.color3-lighter, .btn_color3-lighter, a.color3-lighter, a.btn_color3-lighter, button.color3-lighter, button.btn_color3-lighter {
-  background-color: #f8ecbe;
+.bg_color3-lighter, .btn_color3-lighter, a.bg_color3-lighter, button.bg_color3-lighter {
+  background-color: #e1c03d;
 }
 
-.color3-lighter, .btn_color3-lighter, .color3-lighter > *, .btn_color3-lighter > *, a.color3-lighter, a.btn_color3-lighter, a.color3-lighter > *, a.btn_color3-lighter > *, button.color3-lighter, button.btn_color3-lighter, button.color3-lighter > *, button.btn_color3-lighter > * {
-  color: #7d640d;
+.bg_color3-lighter, .btn_color3-lighter, .bg_color3-lighter > *, .btn_color3-lighter > *, a.bg_color3-lighter, a.bg_color3-lighter > *, button.bg_color3-lighter, button.bg_color3-lighter > * {
+  color: black;
 }
 
-a.color3-lighter:hover, a.btn_color3-lighter:hover, button.color3-lighter:hover, button.btn_color3-lighter:hover {
-  background-color: #f3de90;
+a.bg_color3-lighter:hover, a.btn_color3-lighter:hover, button.bg_color3-lighter:hover, button.btn_color3-lighter:hover {
+  background-color: #cca91f;
   text-decoration: none;
 }
 
-a.color3-lighter:hover, a.btn_color3-lighter:hover, a.color3-lighter:hover > *, a.btn_color3-lighter:hover > *, button.color3-lighter:hover, button.btn_color3-lighter:hover, button.color3-lighter:hover > *, button.btn_color3-lighter:hover > *, .color3-lighter > a:hover, .btn_color3-lighter > a:hover, .color3-lighter > a:hover > *, .btn_color3-lighter > a:hover > * {
-  color: #4e3f08 !important;
+a.bg_color3-lighter:hover, a.btn_color3-lighter:hover, a.bg_color3-lighter:hover > *, a.btn_color3-lighter:hover > *, button.bg_color3-lighter:hover, button.btn_color3-lighter:hover, button.bg_color3-lighter:hover > *, button.btn_color3-lighter:hover > *, .bg_color3-lighter > a:hover, .btn_color3-lighter > a:hover, .bg_color3-lighter > a:hover > *, .btn_color3-lighter > a:hover > * {
+  color: black;
 }
 
-.color3-dark, .btn_color3-dark, a.color3-dark, a.btn_color3-dark, button.color3-dark, button.btn_color3-dark {
-  background-color: #d4ab16;
+.bg_color3-dark, .btn_color3-dark, a.bg_color3-dark, button.bg_color3-dark {
+  background-color: #483b0b;
 }
 
-.color3-dark, .btn_color3-dark, .color3-dark > *, .btn_color3-dark > *, a.color3-dark, a.btn_color3-dark, a.color3-dark > *, a.btn_color3-dark > *, button.color3-dark, button.btn_color3-dark, button.color3-dark > *, button.btn_color3-dark > * {
-  color: #4e3f08;
+.bg_color3-dark, .btn_color3-dark, .bg_color3-dark > *, .btn_color3-dark > *, a.bg_color3-dark, a.bg_color3-dark > *, button.bg_color3-dark, button.bg_color3-dark > * {
+  color: white;
 }
 
-a.color3-dark:hover, a.btn_color3-dark:hover, button.color3-dark:hover, button.btn_color3-dark:hover {
-  background-color: #a68612;
+a.bg_color3-dark:hover, a.btn_color3-dark:hover, button.bg_color3-dark:hover, button.btn_color3-dark:hover {
+  background-color: #1b1704;
   text-decoration: none;
 }
 
-a.color3-dark:hover, a.btn_color3-dark:hover, a.color3-dark:hover > *, a.btn_color3-dark:hover > *, button.color3-dark:hover, button.btn_color3-dark:hover, button.color3-dark:hover > *, button.btn_color3-dark:hover > *, .color3-dark > a:hover, .btn_color3-dark > a:hover, .color3-dark > a:hover > *, .btn_color3-dark > a:hover > * {
-  color: #7d640d;
+a.bg_color3-dark:hover, a.btn_color3-dark:hover, a.bg_color3-dark:hover > *, a.btn_color3-dark:hover > *, button.bg_color3-dark:hover, button.btn_color3-dark:hover, button.bg_color3-dark:hover > *, button.btn_color3-dark:hover > *, .bg_color3-dark > a:hover, .btn_color3-dark > a:hover, .bg_color3-dark > a:hover > *, .btn_color3-dark > a:hover > * {
+  color: white;
 }
 
-.color3-darker, .btn_color3-darker, a.color3-darker, a.btn_color3-darker, button.color3-darker, button.btn_color3-darker {
-  background-color: #a68612;
+.bg_color3-darker, .btn_color3-darker, a.bg_color3-darker, button.bg_color3-darker {
+  background-color: #1b1704;
 }
 
-.color3-darker, .btn_color3-darker, .color3-darker > *, .btn_color3-darker > *, a.color3-darker, a.btn_color3-darker, a.color3-darker > *, a.btn_color3-darker > *, button.color3-darker, button.btn_color3-darker, button.color3-darker > *, button.btn_color3-darker > * {
-  color: #2a2104;
+.bg_color3-darker, .btn_color3-darker, .bg_color3-darker > *, .btn_color3-darker > *, a.bg_color3-darker, a.bg_color3-darker > *, button.bg_color3-darker, button.bg_color3-darker > * {
+  color: white;
 }
 
-a.color3-darker:hover, a.btn_color3-darker:hover, button.color3-darker:hover, button.btn_color3-darker:hover {
-  background-color: #78610d;
+a.bg_color3-darker:hover, a.btn_color3-darker:hover, button.bg_color3-darker:hover, button.btn_color3-darker:hover {
+  background-color: black;
   text-decoration: none;
 }
 
-a.color3-darker:hover, a.btn_color3-darker:hover, a.color3-darker:hover > *, a.btn_color3-darker:hover > *, button.color3-darker:hover, button.btn_color3-darker:hover, button.color3-darker:hover > *, button.btn_color3-darker:hover > *, .color3-darker > a:hover, .btn_color3-darker > a:hover, .color3-darker > a:hover > *, .btn_color3-darker > a:hover > * {
-  color: #584709;
+a.bg_color3-darker:hover, a.btn_color3-darker:hover, a.bg_color3-darker:hover > *, a.btn_color3-darker:hover > *, button.bg_color3-darker:hover, button.btn_color3-darker:hover, button.bg_color3-darker:hover > *, button.btn_color3-darker:hover > *, .bg_color3-darker > a:hover, .btn_color3-darker > a:hover, .bg_color3-darker > a:hover > *, .btn_color3-darker > a:hover > * {
+  color: white;
 }
 
-.color3-darkest, .btn_color3-darkest, a.color3-darkest, a.btn_color3-darkest, button.color3-darkest, button.btn_color3-darkest {
-  background-color: #8f730f;
+.bg_color3-darkest, .btn_color3-darkest, a.bg_color3-darkest, button.bg_color3-darkest {
+  background-color: #050401;
 }
 
-.color3-darkest, .btn_color3-darkest, .color3-darkest > *, .btn_color3-darkest > *, a.color3-darkest, a.btn_color3-darkest, a.color3-darkest > *, a.btn_color3-darkest > *, button.color3-darkest, button.btn_color3-darkest, button.color3-darkest > *, button.btn_color3-darkest > * {
-  color: #0d0d0d;
+.bg_color3-darkest, .btn_color3-darkest, .bg_color3-darkest > *, .btn_color3-darkest > *, a.bg_color3-darkest, a.bg_color3-darkest > *, button.bg_color3-darkest, button.bg_color3-darkest > * {
+  color: white;
 }
 
-a.color3-darkest:hover, a.btn_color3-darkest:hover, button.color3-darkest:hover, button.btn_color3-darkest:hover {
-  background-color: #614e0a;
+a.bg_color3-darkest:hover, a.btn_color3-darkest:hover, button.bg_color3-darkest:hover, button.btn_color3-darkest:hover {
+  background-color: black;
   text-decoration: none;
 }
 
-a.color3-darkest:hover, a.btn_color3-darkest:hover, a.color3-darkest:hover > *, a.btn_color3-darkest:hover > *, button.color3-darkest:hover, button.btn_color3-darkest:hover, button.color3-darkest:hover > *, button.btn_color3-darkest:hover > *, .color3-darkest > a:hover, .btn_color3-darkest > a:hover, .color3-darkest > a:hover > *, .btn_color3-darkest > a:hover > * {
-  color: #262626;
+a.bg_color3-darkest:hover, a.btn_color3-darkest:hover, a.bg_color3-darkest:hover > *, a.btn_color3-darkest:hover > *, button.bg_color3-darkest:hover, button.btn_color3-darkest:hover, button.bg_color3-darkest:hover > *, button.btn_color3-darkest:hover > *, .bg_color3-darkest > a:hover, .btn_color3-darkest > a:hover, .bg_color3-darkest > a:hover > *, .btn_color3-darkest > a:hover > * {
+  color: white;
 }
 
-.color4, .btn_color4, a.color4, a.btn_color4, button.color4, button.btn_color4 {
+.bg_color4, .btn_color4, a.bg_color4, button.bg_color4 {
   background-color: #4fd1c5;
 }
 
-.color4, .btn_color4, .color4 > *, .btn_color4 > *, a.color4, a.btn_color4, a.color4 > *, a.btn_color4 > *, button.color4, button.btn_color4, button.color4 > *, button.btn_color4 > * {
-  color: #16554f;
+.bg_color4, .btn_color4, .bg_color4 > *, .btn_color4 > *, a.bg_color4, a.bg_color4 > *, button.bg_color4, button.bg_color4 > * {
+  color: black;
 }
 
-a.color4:hover, a.btn_color4:hover, button.color4:hover, button.btn_color4:hover {
+a.bg_color4:hover, a.btn_color4:hover, button.bg_color4:hover, button.btn_color4:hover {
   background-color: #31bcaf;
   text-decoration: none;
 }
 
-a.color4:hover, a.btn_color4:hover, a.color4:hover > *, a.btn_color4:hover > *, button.color4:hover, button.btn_color4:hover, button.color4:hover > *, button.btn_color4:hover > *, .color4 > a:hover, .btn_color4 > a:hover, .color4 > a:hover > *, .btn_color4 > a:hover > * {
-  color: #0c2c29 !important;
+a.bg_color4:hover, a.btn_color4:hover, a.bg_color4:hover > *, a.btn_color4:hover > *, button.bg_color4:hover, button.btn_color4:hover, button.bg_color4:hover > *, button.btn_color4:hover > *, .bg_color4 > a:hover, .btn_color4 > a:hover, .bg_color4 > a:hover > *, .btn_color4 > a:hover > * {
+  color: black;
 }
 
-.color4-light, .btn_color4-light, a.color4-light, a.btn_color4-light, button.color4-light, button.btn_color4-light {
+.bg_color4-light, .btn_color4-light, a.bg_color4-light, button.bg_color4-light {
   background-color: #8ce1d9;
 }
 
-.color4-light, .btn_color4-light, .color4-light > *, .btn_color4-light > *, a.color4-light, a.btn_color4-light, a.color4-light > *, a.btn_color4-light > *, button.color4-light, button.btn_color4-light, button.color4-light > *, button.btn_color4-light > * {
-  color: #19615a;
+.bg_color4-light, .btn_color4-light, .bg_color4-light > *, .btn_color4-light > *, a.bg_color4-light, a.bg_color4-light > *, button.bg_color4-light, button.bg_color4-light > * {
+  color: black;
 }
 
-a.color4-light:hover, a.btn_color4-light:hover, button.color4-light:hover, button.btn_color4-light:hover {
+a.bg_color4-light:hover, a.btn_color4-light:hover, button.bg_color4-light:hover, button.btn_color4-light:hover {
   background-color: #63d6cc;
   text-decoration: none;
 }
 
-a.color4-light:hover, a.btn_color4-light:hover, a.color4-light:hover > *, a.btn_color4-light:hover > *, button.color4-light:hover, button.btn_color4-light:hover, button.color4-light:hover > *, button.btn_color4-light:hover > *, .color4-light > a:hover, .btn_color4-light > a:hover, .color4-light > a:hover > *, .btn_color4-light > a:hover > * {
-  color: #0f3935 !important;
+a.bg_color4-light:hover, a.btn_color4-light:hover, a.bg_color4-light:hover > *, a.btn_color4-light:hover > *, button.bg_color4-light:hover, button.btn_color4-light:hover, button.bg_color4-light:hover > *, button.btn_color4-light:hover > *, .bg_color4-light > a:hover, .btn_color4-light > a:hover, .bg_color4-light > a:hover > *, .btn_color4-light > a:hover > * {
+  color: black;
 }
 
-.color4-lighter, .btn_color4-lighter, a.color4-lighter, a.btn_color4-lighter, button.color4-lighter, button.btn_color4-lighter {
+.bg_color4-lighter, .btn_color4-lighter, a.bg_color4-lighter, button.bg_color4-lighter {
   background-color: #b4ebe6;
 }
 
-.color4-lighter, .btn_color4-lighter, .color4-lighter > *, .btn_color4-lighter > *, a.color4-lighter, a.btn_color4-lighter, a.color4-lighter > *, a.btn_color4-lighter > *, button.color4-lighter, button.btn_color4-lighter, button.color4-lighter > *, button.btn_color4-lighter > * {
-  color: #1d6d66;
+.bg_color4-lighter, .btn_color4-lighter, .bg_color4-lighter > *, .btn_color4-lighter > *, a.bg_color4-lighter, a.bg_color4-lighter > *, button.bg_color4-lighter, button.bg_color4-lighter > * {
+  color: black;
 }
 
-a.color4-lighter:hover, a.btn_color4-lighter:hover, button.color4-lighter:hover, button.btn_color4-lighter:hover {
+a.bg_color4-lighter:hover, a.btn_color4-lighter:hover, button.bg_color4-lighter:hover, button.btn_color4-lighter:hover {
   background-color: #8ce1d9;
   text-decoration: none;
 }
 
-a.color4-lighter:hover, a.btn_color4-lighter:hover, a.color4-lighter:hover > *, a.btn_color4-lighter:hover > *, button.color4-lighter:hover, button.btn_color4-lighter:hover, button.color4-lighter:hover > *, button.btn_color4-lighter:hover > *, .color4-lighter > a:hover, .btn_color4-lighter > a:hover, .color4-lighter > a:hover > *, .btn_color4-lighter > a:hover > * {
-  color: #124540 !important;
+a.bg_color4-lighter:hover, a.btn_color4-lighter:hover, a.bg_color4-lighter:hover > *, a.btn_color4-lighter:hover > *, button.bg_color4-lighter:hover, button.btn_color4-lighter:hover, button.bg_color4-lighter:hover > *, button.btn_color4-lighter:hover > *, .bg_color4-lighter > a:hover, .btn_color4-lighter > a:hover, .bg_color4-lighter > a:hover > *, .btn_color4-lighter > a:hover > * {
+  color: black;
 }
 
-.color4-dark, .btn_color4-dark, a.color4-dark, a.btn_color4-dark, button.color4-dark, button.btn_color4-dark {
+.bg_color4-dark, .btn_color4-dark, a.bg_color4-dark, button.bg_color4-dark {
   background-color: #2ca89c;
 }
 
-.color4-dark, .btn_color4-dark, .color4-dark > *, .btn_color4-dark > *, a.color4-dark, a.btn_color4-dark, a.color4-dark > *, a.btn_color4-dark > *, button.color4-dark, button.btn_color4-dark, button.color4-dark > *, button.btn_color4-dark > * {
-  color: #0e3531;
+.bg_color4-dark, .btn_color4-dark, .bg_color4-dark > *, .btn_color4-dark > *, a.bg_color4-dark, a.bg_color4-dark > *, button.bg_color4-dark, button.bg_color4-dark > * {
+  color: black;
 }
 
-a.color4-dark:hover, a.btn_color4-dark:hover, button.color4-dark:hover, button.btn_color4-dark:hover {
+a.bg_color4-dark:hover, a.btn_color4-dark:hover, button.bg_color4-dark:hover, button.btn_color4-dark:hover {
   background-color: #217f77;
   text-decoration: none;
 }
 
-a.color4-dark:hover, a.btn_color4-dark:hover, a.color4-dark:hover > *, a.btn_color4-dark:hover > *, button.color4-dark:hover, button.btn_color4-dark:hover, button.color4-dark:hover > *, button.btn_color4-dark:hover > *, .color4-dark > a:hover, .btn_color4-dark > a:hover, .color4-dark > a:hover > *, .btn_color4-dark > a:hover > * {
-  color: #185d57;
+a.bg_color4-dark:hover, a.btn_color4-dark:hover, a.bg_color4-dark:hover > *, a.btn_color4-dark:hover > *, button.bg_color4-dark:hover, button.btn_color4-dark:hover, button.bg_color4-dark:hover > *, button.btn_color4-dark:hover > *, .bg_color4-dark > a:hover, .btn_color4-dark > a:hover, .bg_color4-dark > a:hover > *, .btn_color4-dark > a:hover > * {
+  color: black;
 }
 
-.color4-darker, .btn_color4-darker, a.color4-darker, a.btn_color4-darker, button.color4-darker, button.btn_color4-darker {
+.bg_color4-darker, .btn_color4-darker, a.bg_color4-darker, button.bg_color4-darker {
   background-color: #217f77;
 }
 
-.color4-darker, .btn_color4-darker, .color4-darker > *, .btn_color4-darker > *, a.color4-darker, a.btn_color4-darker, a.color4-darker > *, a.btn_color4-darker > *, button.color4-darker, button.btn_color4-darker, button.color4-darker > *, button.btn_color4-darker > * {
-  color: #effbfa;
+.bg_color4-darker, .btn_color4-darker, .bg_color4-darker > *, .btn_color4-darker > *, a.bg_color4-darker, a.bg_color4-darker > *, button.bg_color4-darker, button.bg_color4-darker > * {
+  color: white;
 }
 
-a.color4-darker:hover, a.btn_color4-darker:hover, button.color4-darker:hover, button.btn_color4-darker:hover {
+a.bg_color4-darker:hover, a.btn_color4-darker:hover, button.bg_color4-darker:hover, button.btn_color4-darker:hover {
   background-color: #175751;
   text-decoration: none;
 }
 
-a.color4-darker:hover, a.btn_color4-darker:hover, a.color4-darker:hover > *, a.btn_color4-darker:hover > *, button.color4-darker:hover, button.btn_color4-darker:hover, button.color4-darker:hover > *, button.btn_color4-darker:hover > *, .color4-darker > a:hover, .btn_color4-darker > a:hover, .color4-darker > a:hover > *, .btn_color4-darker > a:hover > * {
+a.bg_color4-darker:hover, a.btn_color4-darker:hover, a.bg_color4-darker:hover > *, a.btn_color4-darker:hover > *, button.bg_color4-darker:hover, button.btn_color4-darker:hover, button.bg_color4-darker:hover > *, button.btn_color4-darker:hover > *, .bg_color4-darker > a:hover, .btn_color4-darker > a:hover, .bg_color4-darker > a:hover > *, .btn_color4-darker > a:hover > * {
   color: white;
 }
 
-.color4-darkest, .btn_color4-darkest, a.color4-darkest, a.btn_color4-darkest, button.color4-darkest, button.btn_color4-darkest {
+.bg_color4-darkest, .btn_color4-darkest, a.bg_color4-darkest, button.bg_color4-darkest {
   background-color: #1c6b64;
 }
 
-.color4-darkest, .btn_color4-darkest, .color4-darkest > *, .btn_color4-darkest > *, a.color4-darkest, a.btn_color4-darkest, a.color4-darkest > *, a.btn_color4-darkest > *, button.color4-darkest, button.btn_color4-darkest, button.color4-darkest > *, button.btn_color4-darkest > * {
-  color: #f2f2f2;
+.bg_color4-darkest, .btn_color4-darkest, .bg_color4-darkest > *, .btn_color4-darkest > *, a.bg_color4-darkest, a.bg_color4-darkest > *, button.bg_color4-darkest, button.bg_color4-darkest > * {
+  color: white;
 }
 
-a.color4-darkest:hover, a.btn_color4-darkest:hover, button.color4-darkest:hover, button.btn_color4-darkest:hover {
+a.bg_color4-darkest:hover, a.btn_color4-darkest:hover, button.bg_color4-darkest:hover, button.btn_color4-darkest:hover {
   background-color: #11433e;
   text-decoration: none;
 }
 
-a.color4-darkest:hover, a.btn_color4-darkest:hover, a.color4-darkest:hover > *, a.btn_color4-darkest:hover > *, button.color4-darkest:hover, button.btn_color4-darkest:hover, button.color4-darkest:hover > *, button.btn_color4-darkest:hover > *, .color4-darkest > a:hover, .btn_color4-darkest > a:hover, .color4-darkest > a:hover > *, .btn_color4-darkest > a:hover > * {
+a.bg_color4-darkest:hover, a.btn_color4-darkest:hover, a.bg_color4-darkest:hover > *, a.btn_color4-darkest:hover > *, button.bg_color4-darkest:hover, button.btn_color4-darkest:hover, button.bg_color4-darkest:hover > *, button.btn_color4-darkest:hover > *, .bg_color4-darkest > a:hover, .btn_color4-darkest > a:hover, .bg_color4-darkest > a:hover > *, .btn_color4-darkest > a:hover > * {
   color: white;
 }
 
@@ -1371,7 +1627,7 @@ a.color4-darkest:hover, a.btn_color4-darkest:hover, a.color4-darkest:hover > *, 
 }
 
 .bg_primary\!, .bg_primary\! > *, a.bg_primary\!, a.bg_primary\! > *, button.bg_primary\!, button.bg_primary\! > * {
-  color: #5e1237 !important;
+  color: black !important;
 }
 
 a.bg_primary\!:hover, button.bg_primary\!:hover {
@@ -1380,7 +1636,7 @@ a.bg_primary\!:hover, button.bg_primary\!:hover {
 }
 
 a.bg_primary\!:hover, a.bg_primary\!:hover > *, button.bg_primary\!:hover, button.bg_primary\!:hover > *, .bg_primary\! > a:hover, .bg_primary\! > a:hover > * {
-  color: #330a1e !important;
+  color: black !important;
 }
 
 .bg_primary-light\!, a.bg_primary-light\!, button.bg_primary-light\! {
@@ -1388,7 +1644,7 @@ a.bg_primary\!:hover, a.bg_primary\!:hover > *, button.bg_primary\!:hover, butto
 }
 
 .bg_primary-light\!, .bg_primary-light\! > *, a.bg_primary-light\!, a.bg_primary-light\! > *, button.bg_primary-light\!, button.bg_primary-light\! > * {
-  color: #961d57 !important;
+  color: black !important;
 }
 
 a.bg_primary-light\!:hover, button.bg_primary-light\!:hover {
@@ -1397,7 +1653,7 @@ a.bg_primary-light\!:hover, button.bg_primary-light\!:hover {
 }
 
 a.bg_primary-light\!:hover, a.bg_primary-light\!:hover > *, button.bg_primary-light\!:hover, button.bg_primary-light\!:hover > *, .bg_primary-light\! > a:hover, .bg_primary-light\! > a:hover > * {
-  color: #6b143e !important;
+  color: black !important;
 }
 
 .bg_primary-lighter\!, a.bg_primary-lighter\!, button.bg_primary-lighter\! {
@@ -1405,7 +1661,7 @@ a.bg_primary-light\!:hover, a.bg_primary-light\!:hover > *, button.bg_primary-li
 }
 
 .bg_primary-lighter\!, .bg_primary-lighter\! > *, a.bg_primary-lighter\!, a.bg_primary-lighter\! > *, button.bg_primary-lighter\!, button.bg_primary-lighter\! > * {
-  color: #bc246e !important;
+  color: black !important;
 }
 
 a.bg_primary-lighter\!:hover, button.bg_primary-lighter\!:hover {
@@ -1414,7 +1670,7 @@ a.bg_primary-lighter\!:hover, button.bg_primary-lighter\!:hover {
 }
 
 a.bg_primary-lighter\!:hover, a.bg_primary-lighter\!:hover > *, button.bg_primary-lighter\!:hover, button.bg_primary-lighter\!:hover > *, .bg_primary-lighter\! > a:hover, .bg_primary-lighter\! > a:hover > * {
-  color: #921c55 !important;
+  color: black !important;
 }
 
 .bg_primary-dark\!, a.bg_primary-dark\!, button.bg_primary-dark\! {
@@ -1422,7 +1678,7 @@ a.bg_primary-lighter\!:hover, a.bg_primary-lighter\!:hover > *, button.bg_primar
 }
 
 .bg_primary-dark\!, .bg_primary-dark\! > *, a.bg_primary-dark\!, a.bg_primary-dark\! > *, button.bg_primary-dark\!, button.bg_primary-dark\! > * {
-  color: #0d0d0d !important;
+  color: black !important;
 }
 
 a.bg_primary-dark\!:hover, button.bg_primary-dark\!:hover {
@@ -1439,7 +1695,7 @@ a.bg_primary-dark\!:hover, a.bg_primary-dark\!:hover > *, button.bg_primary-dark
 }
 
 .bg_primary-darker\!, .bg_primary-darker\! > *, a.bg_primary-darker\!, a.bg_primary-darker\! > *, button.bg_primary-darker\!, button.bg_primary-darker\! > * {
-  color: #f7d4e5 !important;
+  color: white !important;
 }
 
 a.bg_primary-darker\!:hover, button.bg_primary-darker\!:hover {
@@ -1456,7 +1712,7 @@ a.bg_primary-darker\!:hover, a.bg_primary-darker\!:hover > *, button.bg_primary-
 }
 
 .bg_primary-darkest\!, .bg_primary-darkest\! > *, a.bg_primary-darkest\!, a.bg_primary-darkest\! > *, button.bg_primary-darkest\!, button.bg_primary-darkest\! > * {
-  color: #f2f2f2 !important;
+  color: white !important;
 }
 
 a.bg_primary-darkest\!:hover, button.bg_primary-darkest\!:hover {
@@ -1473,7 +1729,7 @@ a.bg_primary-darkest\!:hover, a.bg_primary-darkest\!:hover > *, button.bg_primar
 }
 
 .bg_secondary\!, .bg_secondary\! > *, a.bg_secondary\!, a.bg_secondary\! > *, button.bg_secondary\!, button.bg_secondary\! > * {
-  color: #2e0a12 !important;
+  color: black !important;
 }
 
 a.bg_secondary\!:hover, button.bg_secondary\!:hover {
@@ -1482,7 +1738,7 @@ a.bg_secondary\!:hover, button.bg_secondary\!:hover {
 }
 
 a.bg_secondary\!:hover, a.bg_secondary\!:hover > *, button.bg_secondary\!:hover, button.bg_secondary\!:hover > *, .bg_secondary\! > a:hover, .bg_secondary\! > a:hover > * {
-  color: #040102 !important;
+  color: black !important;
 }
 
 .bg_secondary-light\!, a.bg_secondary-light\!, button.bg_secondary-light\! {
@@ -1490,7 +1746,7 @@ a.bg_secondary\!:hover, a.bg_secondary\!:hover > *, button.bg_secondary\!:hover,
 }
 
 .bg_secondary-light\!, .bg_secondary-light\! > *, a.bg_secondary-light\!, a.bg_secondary-light\! > *, button.bg_secondary-light\!, button.bg_secondary-light\! > * {
-  color: #72182c !important;
+  color: black !important;
 }
 
 a.bg_secondary-light\!:hover, button.bg_secondary-light\!:hover {
@@ -1499,7 +1755,7 @@ a.bg_secondary-light\!:hover, button.bg_secondary-light\!:hover {
 }
 
 a.bg_secondary-light\!:hover, a.bg_secondary-light\!:hover > *, button.bg_secondary-light\!:hover, button.bg_secondary-light\!:hover > *, .bg_secondary-light\! > a:hover, .bg_secondary-light\! > a:hover > * {
-  color: #480f1c !important;
+  color: black !important;
 }
 
 .bg_secondary-lighter\!, a.bg_secondary-lighter\!, button.bg_secondary-lighter\! {
@@ -1507,7 +1763,7 @@ a.bg_secondary-light\!:hover, a.bg_secondary-light\!:hover > *, button.bg_second
 }
 
 .bg_secondary-lighter\!, .bg_secondary-lighter\! > *, a.bg_secondary-lighter\!, a.bg_secondary-lighter\! > *, button.bg_secondary-lighter\!, button.bg_secondary-lighter\! > * {
-  color: #9c203d !important;
+  color: black !important;
 }
 
 a.bg_secondary-lighter\!:hover, button.bg_secondary-lighter\!:hover {
@@ -1516,7 +1772,7 @@ a.bg_secondary-lighter\!:hover, button.bg_secondary-lighter\!:hover {
 }
 
 a.bg_secondary-lighter\!:hover, a.bg_secondary-lighter\!:hover > *, button.bg_secondary-lighter\!:hover, button.bg_secondary-lighter\!:hover > *, .bg_secondary-lighter\! > a:hover, .bg_secondary-lighter\! > a:hover > * {
-  color: #72182c !important;
+  color: black !important;
 }
 
 .bg_secondary-dark\!, a.bg_secondary-dark\!, button.bg_secondary-dark\! {
@@ -1524,7 +1780,7 @@ a.bg_secondary-lighter\!:hover, a.bg_secondary-lighter\!:hover > *, button.bg_se
 }
 
 .bg_secondary-dark\!, .bg_secondary-dark\! > *, a.bg_secondary-dark\!, a.bg_secondary-dark\! > *, button.bg_secondary-dark\!, button.bg_secondary-dark\! > * {
-  color: #f2f2f2 !important;
+  color: white !important;
 }
 
 a.bg_secondary-dark\!:hover, button.bg_secondary-dark\!:hover {
@@ -1541,7 +1797,7 @@ a.bg_secondary-dark\!:hover, a.bg_secondary-dark\!:hover > *, button.bg_secondar
 }
 
 .bg_secondary-darker\!, .bg_secondary-darker\! > *, a.bg_secondary-darker\!, a.bg_secondary-darker\! > *, button.bg_secondary-darker\!, button.bg_secondary-darker\! > * {
-  color: #f2f2f2 !important;
+  color: white !important;
 }
 
 a.bg_secondary-darker\!:hover, button.bg_secondary-darker\!:hover {
@@ -1558,7 +1814,7 @@ a.bg_secondary-darker\!:hover, a.bg_secondary-darker\!:hover > *, button.bg_seco
 }
 
 .bg_secondary-darkest\!, .bg_secondary-darkest\! > *, a.bg_secondary-darkest\!, a.bg_secondary-darkest\! > *, button.bg_secondary-darkest\!, button.bg_secondary-darkest\! > * {
-  color: #f2f2f2 !important;
+  color: white !important;
 }
 
 a.bg_secondary-darkest\!:hover, button.bg_secondary-darkest\!:hover {
@@ -1570,207 +1826,207 @@ a.bg_secondary-darkest\!:hover, a.bg_secondary-darkest\!:hover > *, button.bg_se
   color: white !important;
 }
 
-.color3\!, a.color3\!, button.color3\! {
-  background-color: #ecc94b !important;
+.bg_color3\!, a.bg_color3\!, button.bg_color3\! {
+  background-color: #8a7215 !important;
 }
 
-.color3\!, .color3\! > *, a.color3\!, a.color3\! > *, button.color3\!, button.color3\! > * {
-  color: #65520b !important;
+.bg_color3\!, .bg_color3\! > *, a.bg_color3\!, a.bg_color3\! > *, button.bg_color3\!, button.bg_color3\! > * {
+  color: white !important;
 }
 
-a.color3\!:hover, button.color3\!:hover {
-  background-color: #e7bb1d !important;
+a.bg_color3\!:hover, button.bg_color3\!:hover {
+  background-color: #5e4d0e !important;
   text-decoration: none;
 }
 
-a.color3\!:hover, a.color3\!:hover > *, button.color3\!:hover, button.color3\!:hover > *, .color3\! > a:hover, .color3\! > a:hover > * {
-  color: #372d06 !important;
+a.bg_color3\!:hover, a.bg_color3\!:hover > *, button.bg_color3\!:hover, button.bg_color3\!:hover > *, .bg_color3\! > a:hover, .bg_color3\! > a:hover > * {
+  color: white !important;
 }
 
-.color3-light\!, a.color3-light\!, button.color3-light\! {
-  background-color: #f3de90 !important;
+.bg_color3-light\!, a.bg_color3-light\!, button.bg_color3-light\! {
+  background-color: #cca91f !important;
 }
 
-.color3-light\!, .color3-light\! > *, a.color3-light\!, a.color3-light\! > *, button.color3-light\!, button.color3-light\! > * {
-  color: #735d0c !important;
+.bg_color3-light\!, .bg_color3-light\! > *, a.bg_color3-light\!, a.bg_color3-light\! > *, button.bg_color3-light\!, button.bg_color3-light\! > * {
+  color: black !important;
 }
 
-a.color3-light\!:hover, button.color3-light\!:hover {
-  background-color: #eed062 !important;
+a.bg_color3-light\!:hover, button.bg_color3-light\!:hover {
+  background-color: #a08418 !important;
   text-decoration: none;
 }
 
-a.color3-light\!:hover, a.color3-light\!:hover > *, button.color3-light\!:hover, button.color3-light\!:hover > *, .color3-light\! > a:hover, .color3-light\! > a:hover > * {
-  color: #453807 !important;
+a.bg_color3-light\!:hover, a.bg_color3-light\!:hover > *, button.bg_color3-light\!:hover, button.bg_color3-light\!:hover > *, .bg_color3-light\! > a:hover, .bg_color3-light\! > a:hover > * {
+  color: black !important;
 }
 
-.color3-lighter\!, a.color3-lighter\!, button.color3-lighter\! {
-  background-color: #f8ecbe !important;
+.bg_color3-lighter\!, a.bg_color3-lighter\!, button.bg_color3-lighter\! {
+  background-color: #e1c03d !important;
 }
 
-.color3-lighter\!, .color3-lighter\! > *, a.color3-lighter\!, a.color3-lighter\! > *, button.color3-lighter\!, button.color3-lighter\! > * {
-  color: #7d640d !important;
+.bg_color3-lighter\!, .bg_color3-lighter\! > *, a.bg_color3-lighter\!, a.bg_color3-lighter\! > *, button.bg_color3-lighter\!, button.bg_color3-lighter\! > * {
+  color: black !important;
 }
 
-a.color3-lighter\!:hover, button.color3-lighter\!:hover {
-  background-color: #f3de90 !important;
+a.bg_color3-lighter\!:hover, button.bg_color3-lighter\!:hover {
+  background-color: #cca91f !important;
   text-decoration: none;
 }
 
-a.color3-lighter\!:hover, a.color3-lighter\!:hover > *, button.color3-lighter\!:hover, button.color3-lighter\!:hover > *, .color3-lighter\! > a:hover, .color3-lighter\! > a:hover > * {
-  color: #4e3f08 !important;
+a.bg_color3-lighter\!:hover, a.bg_color3-lighter\!:hover > *, button.bg_color3-lighter\!:hover, button.bg_color3-lighter\!:hover > *, .bg_color3-lighter\! > a:hover, .bg_color3-lighter\! > a:hover > * {
+  color: black !important;
 }
 
-.color3-dark\!, a.color3-dark\!, button.color3-dark\! {
-  background-color: #d4ab16 !important;
+.bg_color3-dark\!, a.bg_color3-dark\!, button.bg_color3-dark\! {
+  background-color: #483b0b !important;
 }
 
-.color3-dark\!, .color3-dark\! > *, a.color3-dark\!, a.color3-dark\! > *, button.color3-dark\!, button.color3-dark\! > * {
-  color: #4e3f08 !important;
+.bg_color3-dark\!, .bg_color3-dark\! > *, a.bg_color3-dark\!, a.bg_color3-dark\! > *, button.bg_color3-dark\!, button.bg_color3-dark\! > * {
+  color: white !important;
 }
 
-a.color3-dark\!:hover, button.color3-dark\!:hover {
-  background-color: #a68612 !important;
+a.bg_color3-dark\!:hover, button.bg_color3-dark\!:hover {
+  background-color: #1b1704 !important;
   text-decoration: none;
 }
 
-a.color3-dark\!:hover, a.color3-dark\!:hover > *, button.color3-dark\!:hover, button.color3-dark\!:hover > *, .color3-dark\! > a:hover, .color3-dark\! > a:hover > * {
-  color: #7d640d !important;
+a.bg_color3-dark\!:hover, a.bg_color3-dark\!:hover > *, button.bg_color3-dark\!:hover, button.bg_color3-dark\!:hover > *, .bg_color3-dark\! > a:hover, .bg_color3-dark\! > a:hover > * {
+  color: white !important;
 }
 
-.color3-darker\!, a.color3-darker\!, button.color3-darker\! {
-  background-color: #a68612 !important;
+.bg_color3-darker\!, a.bg_color3-darker\!, button.bg_color3-darker\! {
+  background-color: #1b1704 !important;
 }
 
-.color3-darker\!, .color3-darker\! > *, a.color3-darker\!, a.color3-darker\! > *, button.color3-darker\!, button.color3-darker\! > * {
-  color: #2a2104 !important;
+.bg_color3-darker\!, .bg_color3-darker\! > *, a.bg_color3-darker\!, a.bg_color3-darker\! > *, button.bg_color3-darker\!, button.bg_color3-darker\! > * {
+  color: white !important;
 }
 
-a.color3-darker\!:hover, button.color3-darker\!:hover {
-  background-color: #78610d !important;
+a.bg_color3-darker\!:hover, button.bg_color3-darker\!:hover {
+  background-color: black !important;
   text-decoration: none;
 }
 
-a.color3-darker\!:hover, a.color3-darker\!:hover > *, button.color3-darker\!:hover, button.color3-darker\!:hover > *, .color3-darker\! > a:hover, .color3-darker\! > a:hover > * {
-  color: #584709 !important;
+a.bg_color3-darker\!:hover, a.bg_color3-darker\!:hover > *, button.bg_color3-darker\!:hover, button.bg_color3-darker\!:hover > *, .bg_color3-darker\! > a:hover, .bg_color3-darker\! > a:hover > * {
+  color: white !important;
 }
 
-.color3-darkest\!, a.color3-darkest\!, button.color3-darkest\! {
-  background-color: #8f730f !important;
+.bg_color3-darkest\!, a.bg_color3-darkest\!, button.bg_color3-darkest\! {
+  background-color: #050401 !important;
 }
 
-.color3-darkest\!, .color3-darkest\! > *, a.color3-darkest\!, a.color3-darkest\! > *, button.color3-darkest\!, button.color3-darkest\! > * {
-  color: #0d0d0d !important;
+.bg_color3-darkest\!, .bg_color3-darkest\! > *, a.bg_color3-darkest\!, a.bg_color3-darkest\! > *, button.bg_color3-darkest\!, button.bg_color3-darkest\! > * {
+  color: white !important;
 }
 
-a.color3-darkest\!:hover, button.color3-darkest\!:hover {
-  background-color: #614e0a !important;
+a.bg_color3-darkest\!:hover, button.bg_color3-darkest\!:hover {
+  background-color: black !important;
   text-decoration: none;
 }
 
-a.color3-darkest\!:hover, a.color3-darkest\!:hover > *, button.color3-darkest\!:hover, button.color3-darkest\!:hover > *, .color3-darkest\! > a:hover, .color3-darkest\! > a:hover > * {
-  color: #262626 !important;
+a.bg_color3-darkest\!:hover, a.bg_color3-darkest\!:hover > *, button.bg_color3-darkest\!:hover, button.bg_color3-darkest\!:hover > *, .bg_color3-darkest\! > a:hover, .bg_color3-darkest\! > a:hover > * {
+  color: white !important;
 }
 
-.color4\!, a.color4\!, button.color4\! {
+.bg_color4\!, a.bg_color4\!, button.bg_color4\! {
   background-color: #4fd1c5 !important;
 }
 
-.color4\!, .color4\! > *, a.color4\!, a.color4\! > *, button.color4\!, button.color4\! > * {
-  color: #16554f !important;
+.bg_color4\!, .bg_color4\! > *, a.bg_color4\!, a.bg_color4\! > *, button.bg_color4\!, button.bg_color4\! > * {
+  color: black !important;
 }
 
-a.color4\!:hover, button.color4\!:hover {
+a.bg_color4\!:hover, button.bg_color4\!:hover {
   background-color: #31bcaf !important;
   text-decoration: none;
 }
 
-a.color4\!:hover, a.color4\!:hover > *, button.color4\!:hover, button.color4\!:hover > *, .color4\! > a:hover, .color4\! > a:hover > * {
-  color: #0c2c29 !important;
+a.bg_color4\!:hover, a.bg_color4\!:hover > *, button.bg_color4\!:hover, button.bg_color4\!:hover > *, .bg_color4\! > a:hover, .bg_color4\! > a:hover > * {
+  color: black !important;
 }
 
-.color4-light\!, a.color4-light\!, button.color4-light\! {
+.bg_color4-light\!, a.bg_color4-light\!, button.bg_color4-light\! {
   background-color: #8ce1d9 !important;
 }
 
-.color4-light\!, .color4-light\! > *, a.color4-light\!, a.color4-light\! > *, button.color4-light\!, button.color4-light\! > * {
-  color: #19615a !important;
+.bg_color4-light\!, .bg_color4-light\! > *, a.bg_color4-light\!, a.bg_color4-light\! > *, button.bg_color4-light\!, button.bg_color4-light\! > * {
+  color: black !important;
 }
 
-a.color4-light\!:hover, button.color4-light\!:hover {
+a.bg_color4-light\!:hover, button.bg_color4-light\!:hover {
   background-color: #63d6cc !important;
   text-decoration: none;
 }
 
-a.color4-light\!:hover, a.color4-light\!:hover > *, button.color4-light\!:hover, button.color4-light\!:hover > *, .color4-light\! > a:hover, .color4-light\! > a:hover > * {
-  color: #0f3935 !important;
+a.bg_color4-light\!:hover, a.bg_color4-light\!:hover > *, button.bg_color4-light\!:hover, button.bg_color4-light\!:hover > *, .bg_color4-light\! > a:hover, .bg_color4-light\! > a:hover > * {
+  color: black !important;
 }
 
-.color4-lighter\!, a.color4-lighter\!, button.color4-lighter\! {
+.bg_color4-lighter\!, a.bg_color4-lighter\!, button.bg_color4-lighter\! {
   background-color: #b4ebe6 !important;
 }
 
-.color4-lighter\!, .color4-lighter\! > *, a.color4-lighter\!, a.color4-lighter\! > *, button.color4-lighter\!, button.color4-lighter\! > * {
-  color: #1d6d66 !important;
+.bg_color4-lighter\!, .bg_color4-lighter\! > *, a.bg_color4-lighter\!, a.bg_color4-lighter\! > *, button.bg_color4-lighter\!, button.bg_color4-lighter\! > * {
+  color: black !important;
 }
 
-a.color4-lighter\!:hover, button.color4-lighter\!:hover {
+a.bg_color4-lighter\!:hover, button.bg_color4-lighter\!:hover {
   background-color: #8ce1d9 !important;
   text-decoration: none;
 }
 
-a.color4-lighter\!:hover, a.color4-lighter\!:hover > *, button.color4-lighter\!:hover, button.color4-lighter\!:hover > *, .color4-lighter\! > a:hover, .color4-lighter\! > a:hover > * {
-  color: #124540 !important;
+a.bg_color4-lighter\!:hover, a.bg_color4-lighter\!:hover > *, button.bg_color4-lighter\!:hover, button.bg_color4-lighter\!:hover > *, .bg_color4-lighter\! > a:hover, .bg_color4-lighter\! > a:hover > * {
+  color: black !important;
 }
 
-.color4-dark\!, a.color4-dark\!, button.color4-dark\! {
+.bg_color4-dark\!, a.bg_color4-dark\!, button.bg_color4-dark\! {
   background-color: #2ca89c !important;
 }
 
-.color4-dark\!, .color4-dark\! > *, a.color4-dark\!, a.color4-dark\! > *, button.color4-dark\!, button.color4-dark\! > * {
-  color: #0e3531 !important;
+.bg_color4-dark\!, .bg_color4-dark\! > *, a.bg_color4-dark\!, a.bg_color4-dark\! > *, button.bg_color4-dark\!, button.bg_color4-dark\! > * {
+  color: black !important;
 }
 
-a.color4-dark\!:hover, button.color4-dark\!:hover {
+a.bg_color4-dark\!:hover, button.bg_color4-dark\!:hover {
   background-color: #217f77 !important;
   text-decoration: none;
 }
 
-a.color4-dark\!:hover, a.color4-dark\!:hover > *, button.color4-dark\!:hover, button.color4-dark\!:hover > *, .color4-dark\! > a:hover, .color4-dark\! > a:hover > * {
-  color: #185d57 !important;
+a.bg_color4-dark\!:hover, a.bg_color4-dark\!:hover > *, button.bg_color4-dark\!:hover, button.bg_color4-dark\!:hover > *, .bg_color4-dark\! > a:hover, .bg_color4-dark\! > a:hover > * {
+  color: black !important;
 }
 
-.color4-darker\!, a.color4-darker\!, button.color4-darker\! {
+.bg_color4-darker\!, a.bg_color4-darker\!, button.bg_color4-darker\! {
   background-color: #217f77 !important;
 }
 
-.color4-darker\!, .color4-darker\! > *, a.color4-darker\!, a.color4-darker\! > *, button.color4-darker\!, button.color4-darker\! > * {
-  color: #effbfa !important;
+.bg_color4-darker\!, .bg_color4-darker\! > *, a.bg_color4-darker\!, a.bg_color4-darker\! > *, button.bg_color4-darker\!, button.bg_color4-darker\! > * {
+  color: white !important;
 }
 
-a.color4-darker\!:hover, button.color4-darker\!:hover {
+a.bg_color4-darker\!:hover, button.bg_color4-darker\!:hover {
   background-color: #175751 !important;
   text-decoration: none;
 }
 
-a.color4-darker\!:hover, a.color4-darker\!:hover > *, button.color4-darker\!:hover, button.color4-darker\!:hover > *, .color4-darker\! > a:hover, .color4-darker\! > a:hover > * {
+a.bg_color4-darker\!:hover, a.bg_color4-darker\!:hover > *, button.bg_color4-darker\!:hover, button.bg_color4-darker\!:hover > *, .bg_color4-darker\! > a:hover, .bg_color4-darker\! > a:hover > * {
   color: white !important;
 }
 
-.color4-darkest\!, a.color4-darkest\!, button.color4-darkest\! {
+.bg_color4-darkest\!, a.bg_color4-darkest\!, button.bg_color4-darkest\! {
   background-color: #1c6b64 !important;
 }
 
-.color4-darkest\!, .color4-darkest\! > *, a.color4-darkest\!, a.color4-darkest\! > *, button.color4-darkest\!, button.color4-darkest\! > * {
-  color: #f2f2f2 !important;
+.bg_color4-darkest\!, .bg_color4-darkest\! > *, a.bg_color4-darkest\!, a.bg_color4-darkest\! > *, button.bg_color4-darkest\!, button.bg_color4-darkest\! > * {
+  color: white !important;
 }
 
-a.color4-darkest\!:hover, button.color4-darkest\!:hover {
+a.bg_color4-darkest\!:hover, button.bg_color4-darkest\!:hover {
   background-color: #11433e !important;
   text-decoration: none;
 }
 
-a.color4-darkest\!:hover, a.color4-darkest\!:hover > *, button.color4-darkest\!:hover, button.color4-darkest\!:hover > *, .color4-darkest\! > a:hover, .color4-darkest\! > a:hover > * {
+a.bg_color4-darkest\!:hover, a.bg_color4-darkest\!:hover > *, button.bg_color4-darkest\!:hover, button.bg_color4-darkest\!:hover > *, .bg_color4-darkest\! > a:hover, .bg_color4-darkest\! > a:hover > * {
   color: white !important;
 }
 
@@ -1847,37 +2103,37 @@ a.color4-darkest\!:hover, a.color4-darkest\!:hover > *, button.color4-darkest\!:
 }
 
 .btn_color3.active, .btn_color3:hover, .btn_color3:focus {
-  background-color: #e7bb1d;
-  color: #5c4a0a !important;
+  background-color: #5e4d0e;
+  color: #f2f2f2 !important;
   text-decoration: none;
 }
 
 .btn_color3-light.active, .btn_color3-light:hover, .btn_color3-light:focus {
-  background-color: #eed062;
-  color: #6a550b !important;
+  background-color: #a08418;
+  color: #231d05 !important;
   text-decoration: none;
 }
 
 .btn_color3-lighter.active, .btn_color3-lighter:hover, .btn_color3-lighter:focus {
-  background-color: #f3de90;
-  color: #735d0c !important;
+  background-color: #cca91f;
+  color: #4b3e0b !important;
   text-decoration: none;
 }
 
 .btn_color3-dark.active, .btn_color3-dark:hover, .btn_color3-dark:focus {
-  background-color: #a68612;
-  color: #2a2104 !important;
+  background-color: #1b1704;
+  color: #f2f2f2 !important;
   text-decoration: none;
 }
 
 .btn_color3-darker.active, .btn_color3-darker:hover, .btn_color3-darker:focus {
-  background-color: #78610d;
+  background-color: black;
   color: #f2f2f2 !important;
   text-decoration: none;
 }
 
 .btn_color3-darkest.active, .btn_color3-darkest:hover, .btn_color3-darkest:focus {
-  background-color: #614e0a;
+  background-color: black;
   color: #f2f2f2 !important;
   text-decoration: none;
 }
@@ -1896,7 +2152,7 @@ a.color4-darkest\!:hover, a.color4-darkest\!:hover > *, button.color4-darkest\!:
 
 .btn_color4-lighter.active, .btn_color4-lighter:hover, .btn_color4-lighter:focus {
   background-color: #8ce1d9;
-  color: #19615a !important;
+  color: #1a655e !important;
   text-decoration: none;
 }
 
@@ -1975,31 +2231,31 @@ a.color4-darkest\!:hover, a.color4-darkest\!:hover > *, button.color4-darkest\!:
 }
 
 .border_color3, .border_color3[class*=divider] > ::before, .border_color3 li[class*=active] a, .border_color3 li a[class*=open], .border_color3 li a:hover {
-  border-color: #ecc94b;
+  border-color: #8a7215;
 }
 
 .border_color3-light, .border_color3-light[class*=divider] > ::before, .border_color3-light li[class*=active] a, .border_color3-light li a[class*=open], .border_color3-light li a:hover {
-  border-color: #f3de90;
+  border-color: #cca91f;
 }
 
 .border_color3-lighter, .border_color3-lighter[class*=divider] > ::before, .border_color3-lighter li[class*=active] a, .border_color3-lighter li a[class*=open], .border_color3-lighter li a:hover {
-  border-color: #f8ecbe;
+  border-color: #e1c03d;
 }
 
 .border_color3-dark, .border_color3-dark[class*=divider] > ::before, .border_color3-dark li[class*=active] a, .border_color3-dark li a[class*=open], .border_color3-dark li a:hover {
-  border-color: #d4ab16;
+  border-color: #483b0b;
 }
 
 .border_color3-darker, .border_color3-darker[class*=divider] > ::before, .border_color3-darker li[class*=active] a, .border_color3-darker li a[class*=open], .border_color3-darker li a:hover {
-  border-color: #a68612;
+  border-color: #1b1704;
 }
 
 .border_color3-darkest, .border_color3-darkest[class*=divider] > ::before, .border_color3-darkest li[class*=active] a, .border_color3-darkest li a[class*=open], .border_color3-darkest li a:hover {
-  border-color: #8f730f;
+  border-color: #050401;
 }
 
 .border_color3-black, .border_color3-black[class*=divider] > ::before, .border_color3-black li[class*=active] a, .border_color3-black li a[class*=open], .border_color3-black li a:hover {
-  border-color: #453807;
+  border-color: #42370a;
 }
 
 .border_color4, .border_color4[class*=divider] > ::before, .border_color4 li[class*=active] a, .border_color4 li a[class*=open], .border_color4 li a:hover {
@@ -2087,31 +2343,31 @@ a.color4-darkest\!:hover, a.color4-darkest\!:hover > *, button.color4-darkest\!:
 }
 
 .border_color3\!, .border_color3\![class*=divider] > ::before, .border_color3\! li[class*=active] a, .border_color3 li a[class*=open], .border_color3 li a:hover {
-  border-color: #ecc94b !important;
+  border-color: #8a7215 !important;
 }
 
 .border_color3-light\!, .border_color3-light\![class*=divider] > ::before, .border_color3-light\! li[class*=active] a, .border_color3-light li a[class*=open], .border_color3-light li a:hover {
-  border-color: #f3de90 !important;
+  border-color: #cca91f !important;
 }
 
 .border_color3-lighter\!, .border_color3-lighter\![class*=divider] > ::before, .border_color3-lighter\! li[class*=active] a, .border_color3-lighter li a[class*=open], .border_color3-lighter li a:hover {
-  border-color: #f8ecbe !important;
+  border-color: #e1c03d !important;
 }
 
 .border_color3-dark\!, .border_color3-dark\![class*=divider] > ::before, .border_color3-dark\! li[class*=active] a, .border_color3-dark li a[class*=open], .border_color3-dark li a:hover {
-  border-color: #d4ab16 !important;
+  border-color: #483b0b !important;
 }
 
 .border_color3-darker\!, .border_color3-darker\![class*=divider] > ::before, .border_color3-darker\! li[class*=active] a, .border_color3-darker li a[class*=open], .border_color3-darker li a:hover {
-  border-color: #a68612 !important;
+  border-color: #1b1704 !important;
 }
 
 .border_color3-darkest\!, .border_color3-darkest\![class*=divider] > ::before, .border_color3-darkest\! li[class*=active] a, .border_color3-darkest li a[class*=open], .border_color3-darkest li a:hover {
-  border-color: #8f730f !important;
+  border-color: #050401 !important;
 }
 
 .border_color3-black\!, .border_color3-black\![class*=divider] > ::before, .border_color3-black\! li[class*=active] a, .border_color3-black li a[class*=open], .border_color3-black li a:hover {
-  border-color: #453807 !important;
+  border-color: #42370a !important;
 }
 
 .border_color4\!, .border_color4\![class*=divider] > ::before, .border_color4\! li[class*=active] a, .border_color4 li a[class*=open], .border_color4 li a:hover {
@@ -2142,49 +2398,53 @@ a.color4-darkest\!:hover, a.color4-darkest\!:hover > *, button.color4-darkest\!:
   border-color: #103d39 !important;
 }
 
-.list_tabs > li.active > a, .list_tabs > li.active > a:focus, .list_tabs > li.active > a:hover, .list_tabs > li .active > a, .list_tabs > li .uk-active > a, .list_tabs-bullet > li.active > a, .list_tabs-bullet > li.active > a:focus, .list_tabs-bullet > li.active > a:hover, .list_tabs-bullet > li .active > a, .list_tabs-bullet > li .uk-active > a {
+.list_tabs > li.active > a, .list_tabs > li.uk-active > a, .list_tabs > li.uk-active > a::after, .list_tabs > li.active > a:focus, .list_tabs > li.active > a:hover, .list_tabs > li.active > a:hover > *, .list_tabs > li.uk-active > a:hover > *, .list_tabs > li .active > a, .list_tabs > li .uk-active > a, .list_tabs-bullet > li.active > a, .list_tabs-bullet > li.uk-active > a, .list_tabs-bullet > li.uk-active > a::after, .list_tabs-bullet > li.active > a:focus, .list_tabs-bullet > li.active > a:hover, .list_tabs-bullet > li.active > a:hover > *, .list_tabs-bullet > li.uk-active > a:hover > *, .list_tabs-bullet > li .active > a, .list_tabs-bullet > li .uk-active > a {
   background-color: #e472a9 !important;
   border-color: #e472a9;
-  color: #5e1237 !important;
+  color: #5a1134 !important;
 }
 
-.list_tabs-secondary > li.active > a, .list_tabs-secondary > li.active > a:focus, .list_tabs-secondary > li.active > a:hover, .list_tabs-secondary > li .active > a, .list_tabs-secondary > li .uk-active > a, .list_tabs-bullet.list_tabs-secondary > li.active > a, .list_tabs-bullet.list_tabs-secondary > li.active > a:focus, .list_tabs-bullet.list_tabs-secondary > li.active > a:hover, .list_tabs-bullet.list_tabs-secondary > li .active > a, .list_tabs-bullet.list_tabs-secondary > li .uk-active > a {
+.list_tabs-secondary > li.active > a, .list_tabs-secondary > li.uk-active > a, .list_tabs-secondary > li.uk-active > a::after, .list_tabs-secondary > li.active > a:focus, .list_tabs-secondary > li.active > a:hover, .list_tabs-secondary > li.active > a:hover > *, .list_tabs-secondary > li.uk-active > a:hover > *, .list_tabs-secondary > li .active > a, .list_tabs-secondary > li .uk-active > a, .list_tabs-bullet.list_tabs-secondary > li.active > a, .list_tabs-bullet.list_tabs-secondary > li.uk-active > a, .list_tabs-bullet.list_tabs-secondary > li.uk-active > a::after, .list_tabs-bullet.list_tabs-secondary > li.active > a:focus, .list_tabs-bullet.list_tabs-secondary > li.active > a:hover, .list_tabs-bullet.list_tabs-secondary > li.active > a:hover > *, .list_tabs-bullet.list_tabs-secondary > li.uk-active > a:hover > *, .list_tabs-bullet.list_tabs-secondary > li .active > a, .list_tabs-bullet.list_tabs-secondary > li .uk-active > a {
   background-color: #da4d6d;
   border-color: #da4d6d;
   color: #2e0a12;
 }
 
-.list_tabs-color3 > li.active > a, .list_tabs-color3 > li.active > a:focus, .list_tabs-color3 > li.active > a:hover, .list_tabs-color3 > li .active > a, .list_tabs-color3 > li .uk-active > a, .list_tabs-bullet.list_tabs-color3 > li.active > a, .list_tabs-bullet.list_tabs-color3 > li.active > a:focus, .list_tabs-bullet.list_tabs-color3 > li.active > a:hover, .list_tabs-bullet.list_tabs-color3 > li .active > a, .list_tabs-bullet.list_tabs-color3 > li .uk-active > a {
-  background-color: #ecc94b;
-  border-color: #ecc94b;
-  color: #65520b;
+.list_tabs-color3 > li.active > a, .list_tabs-color3 > li.uk-active > a, .list_tabs-color3 > li.uk-active > a::after, .list_tabs-color3 > li.active > a:focus, .list_tabs-color3 > li.active > a:hover, .list_tabs-color3 > li.active > a:hover > *, .list_tabs-color3 > li.uk-active > a:hover > *, .list_tabs-color3 > li .active > a, .list_tabs-color3 > li .uk-active > a, .list_tabs-bullet.list_tabs-color3 > li.active > a, .list_tabs-bullet.list_tabs-color3 > li.uk-active > a, .list_tabs-bullet.list_tabs-color3 > li.uk-active > a::after, .list_tabs-bullet.list_tabs-color3 > li.active > a:focus, .list_tabs-bullet.list_tabs-color3 > li.active > a:hover, .list_tabs-bullet.list_tabs-color3 > li.active > a:hover > *, .list_tabs-bullet.list_tabs-color3 > li.uk-active > a:hover > *, .list_tabs-bullet.list_tabs-color3 > li .active > a, .list_tabs-bullet.list_tabs-color3 > li .uk-active > a {
+  background-color: #8a7215;
+  border-color: #8a7215;
+  color: #fdfbf2;
 }
 
-.list_tabs-color4 > li.active > a, .list_tabs-color4 > li.active > a:focus, .list_tabs-color4 > li.active > a:hover, .list_tabs-color4 > li .active > a, .list_tabs-color4 > li .uk-active > a, .list_tabs-bullet.list_tabs-color4 > li.active > a, .list_tabs-bullet.list_tabs-color4 > li.active > a:focus, .list_tabs-bullet.list_tabs-color4 > li.active > a:hover, .list_tabs-bullet.list_tabs-color4 > li .active > a, .list_tabs-bullet.list_tabs-color4 > li .uk-active > a {
+.list_tabs-color4 > li.active > a, .list_tabs-color4 > li.uk-active > a, .list_tabs-color4 > li.uk-active > a::after, .list_tabs-color4 > li.active > a:focus, .list_tabs-color4 > li.active > a:hover, .list_tabs-color4 > li.active > a:hover > *, .list_tabs-color4 > li.uk-active > a:hover > *, .list_tabs-color4 > li .active > a, .list_tabs-color4 > li .uk-active > a, .list_tabs-bullet.list_tabs-color4 > li.active > a, .list_tabs-bullet.list_tabs-color4 > li.uk-active > a, .list_tabs-bullet.list_tabs-color4 > li.uk-active > a::after, .list_tabs-bullet.list_tabs-color4 > li.active > a:focus, .list_tabs-bullet.list_tabs-color4 > li.active > a:hover, .list_tabs-bullet.list_tabs-color4 > li.active > a:hover > *, .list_tabs-bullet.list_tabs-color4 > li.uk-active > a:hover > *, .list_tabs-bullet.list_tabs-color4 > li .active > a, .list_tabs-bullet.list_tabs-color4 > li .uk-active > a {
   background-color: #4fd1c5;
   border-color: #4fd1c5;
   color: #16554f;
+}
+
+.list_tabs.list_tabs-icon-active-white.uk-nav-parent-icon > .uk-parent.active > a::after, .list_tabs.list_tabs-icon-active-white.uk-nav-parent-icon > .uk-parent.uk-active > a::after {
+  background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221.1%22%20points%3D%2210%201%204%207%2010%2013%22%20%2F%3E%0A%3C%2Fsvg%3E);
+}
+.list_tabs.list_tabs-icon-active-white.uk-nav-parent-icon > .uk-parent.uk-open.active > a::after, .list_tabs.list_tabs-icon-active-white.uk-nav-parent-icon > .uk-parent.uk-open.uk-active > a::after {
+  background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221.1%22%20points%3D%221%204%207%2010%2013%204%22%20%2F%3E%0A%3C%2Fsvg%3E);
 }
 
 /* Uikit 3 Style
 ---------------------------------------------------- */
 .uk-pagination > .uk-active > span, .uk-subnav-pill > .uk-active > a {
   background: #e472a9;
-  color: #5e1237 !important;
+  color: #5a1134 !important;
 }
 
 .nav_bar-primary .nav_bar > * > a {
-  color: #5e1237;
+  color: #5a1134;
 }
-
 .nav_bar-secondary .nav_bar > * > a {
   color: #2e0a12;
 }
-
 .nav_bar-color3 .nav_bar > * > a {
-  color: #65520b;
+  color: #fdfbf2;
 }
-
 .nav_bar-color4 .nav_bar > * > a {
   color: #16554f;
 }
